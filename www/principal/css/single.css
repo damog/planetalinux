@@ -1,0 +1,83 @@
+@import url("footer.css");
+
+*{margin: 0; padding: 0; }
+body{ font: .95em/1.45em "Bitstream Vera Sans", Helvetica, sans-serif; color: #666; background-color: #fff; text-align:center; }
+#container{ margin: 1em auto; width: 50em; text-align: left; }
+#content { width: 33em; float: left; color: #fff; background-color: #ccc;}
+#content #inner{ color: #666; background-color: #f7f7f7; margin: 0.1em 0.4em; }
+#sidebar { width: 13em; float: right; }
+#sidebar .links{ background-color: #212121; color: #fff; }
+#sidebar .nav{ margin: 0.1em 0.4em; background-color: #444; color: #fff; list-style-type: none;  }
+#sidebar .nav li{ padding-left: .7em; }
+#container #pl-title{ margin: 1em 0 0.6em 0; }
+h2{ margin: 0.3em 0; color: #222; background-color: transparent; text-transform: uppercase; margin: 0.5em 0.6em; } 
+p{ margin: 0 0.7em 1em 0.7em; }
+
+/** 
+ * Logo
+ * 
+ * - - - - - - - - - - - - - */ 
+#pl-title{ margin: 0.4em 0; }
+#pl-title a:link,
+#pl-title a:visited{
+  display: block;
+  padding: 100px 0 0 0;
+  width: 234px;
+  overflow: hidden;
+  height: 0 !important;
+  height /**/: 100px;
+  background: transparent url("../images/mar06/planetalinux.png") 0 0 no-repeat;
+  text-decoration: none;
+}
+/** 
+ * Normas
+ * 
+ * - - - - - - - - - - - - - */
+h2#normas{
+  padding: 20px 0 0 0;
+  width: 150px;
+  overflow: hidden;
+  height: 0 !important;
+  height /**/: 20px;
+  background: transparent url("../images/mar06/lineamientos.png") 0 0 no-repeat;
+}
+/** 
+ * Enlaces
+ * 
+ * - - - - - - - - - - - - - */ 
+#content a:link, 
+#content a:visited{
+	color:#39f;
+	text-decoration: none;
+	border-bottom: 1px dotted #39f;
+}
+#content a:hover,
+#content a:active{
+	color: #f60;
+	border-bottom: 1px dotted #f60;
+}
+#sidebar a:link, 
+#sidebar a:visited{
+	display:block;
+	color:#f60;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+#sidebar a:hover,
+#sidebar a:active{
+	color: #df8;
+	border-right: 7px solid #df8;
+}
+/** 
+ * Listas
+ * 
+ * - - - - - - - - - - - - - */ 
+#content ul{
+	list-style-type: none;
+}
+#content ul li{
+ 	background: url("../images/mar06/bullet.png") 0 2px no-repeat;
+ 	padding-left: 20px;
+ 	line-height: 1.7em;
+	margin: 0 0.7em;
+} 

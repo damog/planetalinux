@@ -1,0 +1,44 @@
+/** 
+ * Estructura
+ * 
+ * - - - - - - - - - - - - - */
+#footer{
+  clear: both;
+  text-align: center;
+}
+#footer-content{
+  margin: 0 auto;
+  width: 50%;
+  text-align: left;
+}
+/** 
+ * Enlaces
+ * 
+ * - - - - - - - - - - - - - */ 
+#footer-content a:link,
+#footer-content a:visited{
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+#footer-content a:hover,
+#footer-content a:active{
+  color: #dbea38;
+  border-bottom: 1px dotted #dbea38;
+}
+/** 
+ * Misc
+ * 
+ * - - - - - - - - - - - - - */ 
+#footer{
+  background: #008fc4 url("../images/mar06/top_footer.png") 0 0 repeat-x;
+  color: #f7f7f7;
+  font: 83%/155% "Bitstream Vera Sans", Arial, Verdana, Helvetica, sans-serif;
+  padding: 142px 0 20px 0;
+}
+#footer-content{
+
+}
+#footer-content p{
+  margin-bottom: 8px;
+}

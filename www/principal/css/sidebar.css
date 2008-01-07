@@ -1,0 +1,120 @@
+/** 
+ * Estructura
+ * 
+ * - - - - - - - - - - - - - */ 
+#sidebar{
+	width: 24%;
+	float: right;
+	margin-top: 2em;
+}
+.inner{
+	padding: 1.3em 2em 0 1.4em;
+}
+#last{
+	padding-bottom: 20px;
+}
+/** 
+ * Enlaces
+ * 
+ * - - - - - - - - - - - - - */ 
+#sidebar a:link, 
+#sidebar a:visited{
+	color:#39f;
+	text-decoration: none;
+	border-bottom: 1px dotted #39f;
+}
+#sidebar a:hover,
+#sidebar a:active{
+color: #f60;
+border-bottom: 1px dotted #f60;
+}
+/** 
+ * Listas
+ * 
+ * - - - - - - - - - - - - - */ 
+#members li,
+#navegacion li
+{
+  list-style-type: none;
+  padding-left: 19px;
+  line-height: 1.85em;  
+}
+
+#members li{
+  background: transparent url("../images/mar06/person.png") 0 3px no-repeat;
+}
+#navegacion li{
+	background: transparent url("../images/mar06/arrow_up.png") 0 3px no-repeat;
+}
+/** 
+ * Tipografias
+ * 
+ * - - - - - - - - - - - - - */ 
+h3#colabora,
+h3#about,
+h3#bloggers,
+h3#goto,
+h3#worldwide,
+h3#debian-day
+{
+  padding: 18px 0 0 0;
+  overflow: hidden;
+  height: 0 !important;
+  height /**/: 18px;
+  margin-bottom: 7px;
+}
+h3#difunde{
+  padding: 22px 0 0 0;
+  overflow: hidden;
+  height: 0 !important;
+  height /**/: 22px;
+  margin-bottom: 7px;
+  margin-top: 16px;
+  width: 74px;
+  background: transparent url("../images/mar06/difunde.png") top left no-repeat;
+}
+h3#colabora{
+  width: 93px;
+  background: transparent url("../images/mar06/colaborar.png") top left no-repeat;
+}
+h3#about{
+  width: 64px;
+  background: transparent url("../images/mar06/acerca.png") top left no-repeat;
+}
+h3#bloggers{
+  width: 55px;
+  background: transparent url("../images/mar06/gente.png") top left no-repeat;
+}
+h3#worldwide{
+  width: 148px;
+  background: transparent url("../images/mar06/worldwide.png") top left no-repeat;
+  }
+h3#debian-day{
+  width: 86px;
+  background: transparent url("../images/mar06/debian-day.png") top left no-repeat;
+  }
+h3#goto{
+  margin-top: 16px;
+  width: 54px;
+  background: transparent url("../images/mar06/navegacion.png") top left no-repeat;
+}
+/** 
+ * Misc
+ * 
+ * - - - - - - - - - - - - - */ 
+#sidebar{
+	background: #f7f7f7 url("../images/mar06/corners/sidebar-bg.png") top left repeat-y;
+	color: #777;
+}
+#first{
+	background: transparent url("../images/mar06/corners/sidebar-top.png") top left no-repeat;
+}
+#last{
+	background: transparent url("../images/mar06/corners/sidebar-bottom.png") bottom left no-repeat;
+}
+/** 
+ * Debian Day
+ * 
+ * - - - - - - - - - - - - - */ 
+.inner a#debconf{ border: 0 none; }
+#debconf img { border: 0 none; }

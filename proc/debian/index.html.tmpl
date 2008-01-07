@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+<title><TMPL_VAR name></title>
+<meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" media="screen" type="text/css" href="boxless.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+<TMPL_LOOP Items>
+<TMPL_IF new_channel>
+<TMPL_UNLESS __FIRST__>
+</div>
+
+</TMPL_UNLESS>
+</TMPL_IF>
+<TMPL_IF new_date>
+
+
+<h1><TMPL_VAR new_date></h1>
+</TMPL_IF>
+<TMPL_IF new_channel>
+
+<div class="channel">
+<TMPL_IF channel_face>
+<a href="<TMPL_VAR channel_link ESCAPE="HTML">"><img class="face" src="images/cabezas/<TMPL_VAR channel_face ESCAPE="HTML">" width="<TMPL_VAR channel_facewidth ESCAPE="HTML">" height="<TMPL_VAR channel_faceheight ESCAPE="HTML">" alt=""></a>
+</TMPL_IF>
+<h2><a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title ESCAPE="HTML">"><TMPL_VAR channel_name></a></h2>
+</TMPL_IF>
+
+<div class="entry">
+<TMPL_IF title>
+<h3><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h3>
+</TMPL_IF>
+<div class="content">
+<TMPL_VAR content>
+</div>
+<p class="date">
+<a href="<TMPL_VAR link>"><TMPL_VAR date></a>
+<TMPL_IF author>
+
+por <TMPL_VAR author>
+</TMPL_IF>
+<TMPL_IF category>
+
+bajo <TMPL_VAR category>
+</TMPL_IF>
+<TMPL_IF comments>
+
+(<a href="<TMPL_VAR comments ESCAPE="HTML">">Comentarios</a>)
+</TMPL_IF>
+</p>
+</div>
+</TMPL_LOOP>
+</div>
+
+
+<div id="sidebar">
+<h1><TMPL_VAR name></h1>
+<div id="logo"><img src="images/debian.png" width="101" height="124" alt=""></div>
+
+<p>
+Planeta Debian en Español agrupa los blogs de desarrolladores, mantenedores y colaboradores hispanoparlantes alrededor del proyecto <a href="http://www.debian.org/">Debian</a>.
+</p>
+
+<p align="center">
+<a href="rss20.xml"><img class="button" src="images/rss20.png" width="80" height="15" alt="[RSS 2.0 Feed]"></a>
+</p>
+
+<p>
+Todos los horarios son GMT. Contenido actualizado a las: <TMPL_VAR date></p>
+
+Contacto: &lt;<a href="mailto:debian-devel-spanish@lists.debian.org">debian-devel-spanish</a>&gt;
+</p>
+
+<h2>Suscripciones</h2>
+<ul>
+<TMPL_LOOP Channels>
+<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a> | <a href="<TMPL_VAR url ESCAPE="HTML">"><img src="images/feed-icon-10x10.png" border="0"></a></li>
+</TMPL_LOOP>
+</ul>
+
+<p>
+Este sitio corre gracias a <a href="http://www.planetplanet.org/">Planet</a> y es administrado por <a href="http://www.planetalinux.org/">Planeta Linux</a>.
+</p>
+
+        <p align="center">
+	                <a href="http://www.astrata.com.mx/">Astrata</a>
+							        </p>
+
+</div>
+</body>
+
+</html>

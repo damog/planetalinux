@@ -1,0 +1,15 @@
+@import url("header.css");
+@import url("content.css");
+@import url("sidebar.css");
+@import url("footer.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{ 
+  font: 85%/165% "Bitstream Vera Sans", Arial, Verdana, Helvetica, sans-serif; 
+  color: #444;
+  background: #fff;
+}

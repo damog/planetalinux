@@ -1,0 +1,74 @@
+* { 
+	margin: 0; 
+	padding: 0;
+}
+body{
+	font: 70%/135% "Bitstream Vera Sans", Arial, Verdana, Helvetica, sans-serif;
+	text-align: center;
+}
+#wrap{
+	width: 750px;
+	margin: 0 auto;
+	text-align: left;
+}
+#header-title a,
+#mexflag a,
+#venflag a,
+#perflag a{
+	display: block;
+	overflow: hidden;
+	height: 0 !important;
+}
+#header-title a{
+	padding: 319px 0 0 0;
+  	width: 450px;
+  	height /**/: 319px;
+  	background: transparent url("images/portada.png") 0 0 no-repeat;
+  	margin-bottom: 20px;
+}
+#mexflag a,
+#venflag a,
+#perflag a{
+	padding: 60px 0 0 0;
+  	width: 102px;
+  	height /**/: 60px;
+  	float: left;
+}
+#mexflag a{
+	background: transparent url("images/mexflag.png") 0 0 no-repeat;
+	margin-right: 10px;
+}
+#venflag a{	
+	background: transparent url("images/venflag.png") 0 0 no-repeat;
+	margin-right: 10px;
+}
+#perflag a{
+	background: transparent url("images/perflag.png") 0 0 no-repeat;
+}
+#flags{ list-style-type: none; margin: 0 auto; width: 354px;}
+#limpiar{ clear: both; }
+
+
+#foot{margin-top: 35px; border-top: 1px dashed #ccc; text-align: center; padding-top: 10px;}
+a:link {
+	color: #716BB7;
+	background-color: #fff;
+	text-decoration: none;
+}
+a:visited {
+	color: #68667C;
+	background-color: #fff;
+}
+a:hover, a:active {
+	color: green;
+	background-color: #fff;
+}
+a img{
+	border: 0;
+}
+#validacion{
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+h1, h2{ font-size: 0.9em; }

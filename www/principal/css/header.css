@@ -1,0 +1,140 @@
+/** 
+ * Estructura
+ * 
+ * - - - - - - - - - - - - - */
+#header
+{ 
+}
+#header-title {
+	float: left;
+}
+#menu{  }
+
+
+/** 
+ * Enlaces
+ * 
+ * - - - - - - - - - - - - - */ 
+#header-title a:link,
+#header-title a:visited{
+  display: block;
+  padding: 100px 0 0 0;
+  width: 234px;
+  overflow: hidden;
+  height: 0 !important;
+  height /**/: 100px;
+  background: transparent url("../images/mar06/planetalinux.png") 0 0 no-repeat;
+}
+#header-title a:hover,
+#header-title a:active{
+}
+#navbar a:link, #navbar a:visited{
+	color: #666;
+	text-decoration: none;
+}
+#navbar a:hover, #navbar a:active{
+	color: #f60;
+}
+#navbar .current a{
+	color: #39f;
+}
+#goto-content{ display: none; }
+
+/** 
+ * Navegacion
+ * 
+ * - - - - - - - - - - - - - */
+#navbar{ float:right; margin: 80px 1em 0 0; }
+#navbar li{ margin-right: 15px; list-style-type: none; display: inline; }
+#navbar li a{ padding-left: 22px; }
+#navbar #mx a:link, #navbar #mx a:visited{ 
+	background: transparent url("../images/mar06/mx.png") 0 3px no-repeat;
+}  
+#navbar #mx a:hover, #navbar #mx a:focus, #navbar #mx a:active, #navbar #mx.current a{ 
+	background: transparent url("../images/mar06/mx.png") 0 -26px no-repeat;
+}  
+#navbar #ve a:link, #navbar #ve a:visited{
+	background: transparent url("../images/mar06/ve.png") 0 3px no-repeat;
+}
+#navbar #ve a:hover, #navbar #ve a:focus, #navbar #ve a:active, #navbar #ve.current a{ 
+	background: transparent url("../images/mar06/ve.png") 0 -26px no-repeat;
+}  
+#navbar #pe a:link, #navbar #pe a:visited{
+	background: transparent url("../images/mar06/pe.png") 0 3px no-repeat;
+}
+#navbar #pe a:hover, #navbar #pe a:focus, #navbar #pe a:active, #navbar #pe.current a{ 
+	background: transparent url("../images/mar06/pe.png") 0 -26px no-repeat;
+}  
+#navbar #cl a:link, #navbar #cl a:visited{
+	background: transparent url("../images/mar06/cl.png") 0 3px no-repeat;
+}
+#navbar #cl a:hover, #navbar #cl a:focus, #navbar #cl a:active, #navbar #cl.current a{ 
+	background: transparent url("../images/mar06/cl.png") 0 -26px no-repeat;
+}  
+#navbar #co a:link, #navbar #co a:visited{
+	background: transparent url("../images/mar06/co.png") 0 3px no-repeat;
+}
+#navbar #co a:hover, #navbar #co a:focus, #navbar #co a:active, #navbar #co.current a{ 
+	background: transparent url("../images/mar06/co.png") 0 -26px no-repeat;
+}  
+
+#navbar #ec a:link, #navbar #ec a:visited{
+	background: transparent url("../images/mar06/ec.png") 0 3px no-repeat;
+}
+#navbar #ec a:hover, #navbar #ec a:focus, #navbar #ec a:active, #navbar #ec.current a{ 
+	background: transparent url("../images/mar06/ec.png") 0 -26px no-repeat;
+}  
+
+#navbar #es a:link, #navbar #es a:visited{
+	background: transparent url("../images/mar06/es.png") 0 3px no-repeat;
+}
+#navbar #es a:hover, #navbar #es a:focus, #navbar #es a:active, #navbar #es.current a{ 
+	background: transparent url("../images/mar06/es.png") 0 -26px no-repeat;
+}  
+
+#navbar #home a:link, #navbar #home a:visited{
+	background: transparent url("../images/mar06/go-home.png") 0 0 no-repeat;
+}  
+#navbar #home a:hover, #navbar #home a:focus, #navbar #home a:active, #navbar #home.current a{
+	background: transparent url("../images/mar06/go-home.png") 0 -25px no-repeat;
+}
+
+/** 
+ * Encabezado
+ * 
+ * - - - - - - - - - - - - - */
+h1{font-size: 0.8em; margin: 0; }
+/** 
+ * Misc
+ * 
+ * - - - - - - - - - - - - - */
+#header{ 
+	background: transparent url("../images/mar06/bg-header.png") top left repeat-x; 
+}
+#inside{ }
+#header-title {
+	margin: 1.7em 0 1.9em 2.2em;
+}
+
+/**
+ * Mensaje
+ *
+ * - - - - - - - - - - - - - */
+.message{
+    padding: 1.3em 2em 1.0em 1.4em;
+    background: #ddd;
+    border: 1px solid silver;
+    margin: 20px;
+}
+
+.message h3{
+	color: #f93737;
+	font-size: large;
+	font-weight: normal;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.message p{
+	text-align: justify;
+}

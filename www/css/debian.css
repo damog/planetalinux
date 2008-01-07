@@ -1,0 +1,209 @@
+/* CSS for Planet Debian
+ * 
+ * Yes, Planet *DEBIAN* ... please stop stealing our CSS for use on
+ * your own Planet!  I'd like this to have a fairly distinctive look
+ * and there's a perfectly good CSS example included with the Planet
+ * source now.
+ *
+ * THIEVES! ADMINS! WE HATES THEM FOREVER!
+ *
+ * I'll set Andrew Suffield on you...
+ */
+
+body {
+	/*font-size: 90%;*/
+
+	padding: 0 10px;
+	padding-top: 1px;
+	padding-bottom: 1em;
+
+	border-right: 1px solid rgb(128, 128, 128);
+
+	background-color: white;
+	color: black;
+
+	margin: 0;
+	margin-right: 185px;
+}
+
+h1 {
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 175%;
+
+	letter-spacing: -2px;
+
+	color: rgb(215, 7, 81);
+
+	padding: 0;
+	margin: 0;
+	margin-top: 1em;
+}
+
+
+div.channel {
+	padding: 0;
+	padding-bottom: 0.1em;
+
+	margin: 0;
+	margin-top: 20px;
+}
+
+div.channel img.face {
+	float: right;
+	border: none;
+}
+
+div.channel h2 {
+	font-family: "Lucida Sans Unicode", sans-serif;
+	font-size: 150%;
+
+	letter-spacing: -2px;
+
+	padding: 0 0.25em;
+
+	border-bottom: 1px solid black;
+
+	margin: 0;
+}
+
+div.channel h2 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+div.entry {
+	padding: 0 5px;
+
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+div.entry h3 {
+	font-family: "Bitstream Vera Sans", sans-serif;
+	font-size: 110%;
+
+	color: rgb(32, 32, 32);
+
+	padding: 0;
+
+	border-bottom: 1px dashed black;
+
+	margin: 0;
+	margin-top: 2px;
+}
+
+div.entry h3 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+div.entry p.date {
+	font-family: sans-serif;
+
+	color: rgb(64, 64, 64);
+
+	padding: 0 10px;
+
+	margin: 10px 0;
+}
+
+div.entry p.date a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+div.content {
+	text-align: justify;
+
+	padding: 0 20px;
+
+	margin: 0;
+	margin-top: 5px;
+}
+
+div.content h1 { font-size: 100%; }
+div.content h2 { font-size: 100%; }
+div.content h3 { font-size: 100%; }
+div.content h4 { font-size: 100%; }
+div.content h5 { font-size: 100%; }
+div.content h6 { font-size: 100%; }
+
+
+div#sidebar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 165px;
+
+	font-family: sans-serif;
+	font-size: 80%;
+
+	text-align: justify;
+
+	padding: 0 10px;
+
+	background-color: white;
+
+	margin: 0;
+}
+
+div#sidebar h1 {
+	font-family: "Bitstream Vera Sans", sans-serif;
+	font-size: 20px !important;
+
+	text-transform: lowercase;
+
+	margin-top: 30px;
+}
+
+div#sidebar div#logo {
+	padding: 2px 0;
+	padding-left: 10px;
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+	margin-left: -10px;
+}
+
+div#sidebar h2 {
+	font-size: 100%;
+
+	text-transform: uppercase;
+
+	border-bottom: 1px dashed rgb(128, 128, 128);
+
+	margin-top: 2em;
+}
+
+div#sidebar img.button {
+	border: none;
+}
+
+div#sidebar ul {
+	list-style-type: square;
+
+	text-align: left;
+
+	padding-left: 1.5em;
+
+	margin-left: 0px;
+}
+
+div#sidebar li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+a:hover {
+	text-decoration: underline !important;
+	color: blue !important;
+}
+
+/* Suggested by Daniel Silverstone */
+span.ljuser img {
+	border: 0px;
+}

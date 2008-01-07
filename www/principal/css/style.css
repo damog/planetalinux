@@ -1,0 +1,241 @@
+/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+body {      
+	font: .95em/1.45em "Bitstream Vera Sans", Helvetica, sans-serif;
+	color: #666;
+      font-size: 12px;
+      background-color: #FFFFFF;
+      margin-left: 100px;
+      margin-right: 100px;
+}
+img {
+	border: none;
+	padding-top:10px; 
+} 
+#tabs {	float:left;	width:100%;
+	background:#F9F7F3;
+  	font-size:93%;
+  	line-height:normal;
+	border-bottom:1px solid #C2BDAE;}
+#tabs ul {	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+}
+#tabs li {
+	display:inline;
+  	margin:0;
+	padding:0;
+}
+#tabs a {
+	float:left;
+ 	background:url("tableft11.gif") no-repeat left top;
+	margin:0;
+  	padding:0 0 0 4px;
+  	text-decoration:none;
+}
+#tabs a span {
+	float:left;
+  	display:block;
+	background:url("tabright11.gif") no-repeat right top;
+  	padding:5px 15px 4px 6px;
+  	color:#9F9584;
+}
+ /* Commented Backslash Hack hides rule from IE5-Mac \*/
+ #tabs a span {float:none;}
+ /* End IE5-Mac hack */
+#tabs a:hover span {
+ 	color:#FFF;
+  	color:#9F9584;
+}
+#tabs a:hover {
+	background-position:0% -42px;
+}
+#tabs a:hover span {
+	background-position:100% -42px;
+}
+
+#ContTabul {
+      border-left: 1px solid #CCC;
+      border-right: 1px solid #CCC;
+      border-bottom: 1px solid #CCC;
+      padding: 10px 5px 6px 5px;
+}
+ul#tabnav {
+      list-style-type: none;
+      margin: 0;
+      padding-left: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #CCC;
+      font: 11px verdana, arial, sans-serif;
+}
+ul#tabnav li {
+      float: left;
+      height: 21px;
+      background-color: #E4E4E4;
+      color: #666;
+      margin: 2px 10px 0 2px;
+      border: 1px solid #CCC;
+}
+ul#tabnav a:link, ul#tabnav a:visited {
+      display: block;
+      color: #666;
+      text-decoration: none;
+      padding: 4px;
+}
+ul#tabnav a:hover {
+      background-color: #666;
+      color: #666;
+}
+}
+#tabnav .activo {
+      border-bottom: 1px solid #fff;
+      color: #000000;
+      background-color: #FFFFFF;
+}
+#tabnav .inactivo {}
+#banderas{list-style-type: none; margin: 0 auto;}
+#banderas a:link {
+	color: #716BB7;
+	background-color: #fff;
+	text-decoration: none;
+}
+#banderas a:visited {
+	color: #68667C;
+	background-color: #fff;
+}
+#banderas a:hover, a:active {
+	color: green;
+	background-color: #fff;
+}
+#banderas a img{
+	border: 0;
+}
+#foot{margin-top: 35px; border-top: 1px dashed #ccc; text-align: center; padding-top: 10px;background: transparent; color: #918f8b; font-size: 10px;}
+#foot a:link {
+	color: #716BB7;
+	background-color: #fff;
+	text-decoration: none;
+}
+#foot a:visited {
+	color: #68667C;
+	background-color: #fff;
+}
+#foot a:hover, a:active {
+	color: green;
+	background-color: #fff;
+}
+/*Aqui empieza el css del contenido de los links*/
+#contenido{margin-top: 5px; border-top: 1px dashed #ccc; text-align: left;padding-top: 50px;}
+titulo{
+  padding: 0 0 .5em;
+  text-align: center;
+  font-size: 140%;
+  font-weight: bold;
+  color: #453827;
+  background: transparent;
+  }
+#contenido ul{
+	list-style-type: none;
+}
+#contenido ul li{
+ 	background: url("../images/bullet.png") 0 2px no-repeat;
+ 	padding-left: 15px;
+ 	line-height: 1.7em;
+	margin: 0 0.7em;
+} 
+#contenido a:link {
+	color: #d0760b;
+	background-color: #fff;
+	text-decoration: none;
+}
+#contenido a:visited {
+	color: green;
+	background-color: #fff;
+}
+#contenido a:hover, a:active {
+	color: #F0ED15;
+	background-color: #fff;
+}
+fieldset {position:relative} /* For legend positioning */
+#recuadro1 legend {padding:0} /* Remove padding */
+#recuadro2 legend { /* Text and background colour, blue on light gray */
+	color:#d0760b;
+      font-size: 16px;
+	font-weight: bold;
+	background-color:#ddd;
+ }
+.imagen{
+	padding-top:10px; 
+}
+/*Tablas del Concurso*/
+.error {
+    background-color: #FFF7D7; 
+    border: 1px solid #FAD163;
+    color: #f00;   
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+	}
+.mIn {
+    
+    background-color: #FFF7D7;  
+    border: 1px solid #FAD163;
+}
+#mOut {
+    background-color: #FAD163;
+    width: 700px;      
+}
+.tableamex
+{
+border-collapse: collapse;
+border-spacing:0;
+border: 1px solid #BA9;
+font: 110% "Trebuchet MS", Tahoma, Arial, Helvetica, sans-serif;
+}
+ caption{
+  padding: 0 .5em .5em;
+  text-align: center;
+  font-size: 140%;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #453827;
+  background: transparent;
+  }
+	
+.tableamex tr{
+
+}
+.tableamex td, th {
+  border: 1px solid #BBAA99;
+  padding: .3em;
+  font-size: 1.2em;
+color: #666;
+  }
+thead th, tfoot th, tfoot td {
+	border: 1px solid #7d9bc8;
+	text-align: left;
+	font-weight: bold;
+	font-size: 100%;
+	background: #7d9bc8 url("thbg.gif") repeat-x top left;
+	color: #FFF;
+}
+tbody th,thead th,tbody td {
+	vertical-align: top;
+	text-align: left;
+}
+
+tbody tr:hover td, 
+tbody tr:focus td,
+tbody tr:hover th,
+tbody tr:focus th
+{
+	background: url("shimx.gif")  repeat-x top left;
+	color: #000;
+}
+
+tr.odd
+{
+background: url("shim.gif")  repeat-x top left;
+}	
+ 

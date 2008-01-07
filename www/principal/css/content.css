@@ -1,0 +1,283 @@
+/** 
+ * Estructura
+ * 
+ * - - - - - - - - - - - - - */
+#entry-wrap{
+	float: left;
+	width: 75%;
+	clear: both;
+}
+.entry{
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 1.3em;
+}
+
+/** 
+ * Bordes Redondeados
+ * 
+ * - - - - - - - - - - - - - */
+#entry-wrap .post{
+	background: #f7f7f7 url("../images/mar06/corners/line-left.png") 0 0 repeat-y; 
+	clear: both;
+}
+#entry-wrap .post-inner{
+	background: transparent url("../images/mar06/corners/line-right.png") 100% 0 repeat-y;
+}
+h3.entry-title{
+	background: transparent url("../images/mar06/corners/top-left.png") 0 0 no-repeat;
+}
+h3.entry-title a{
+	display: block;
+	background: transparent url("../images/mar06/corners/top-right.png") top right no-repeat;
+	padding: 32px 20px 10px 20px;
+}
+.entry-content{
+	padding: 0 20px;
+}
+.post-footer{
+	background: transparent url("../images/mar06/corners/bottom-left.png") 0 100% no-repeat;
+}
+.post-footer p{
+	background: transparent url("../images/mar06/corners/bottom-right.png") 100% 100% no-repeat;
+}
+.post-footer p a{
+	display: block;
+	text-align: right;
+	padding: 0 0 7px 0;
+	margin: 7px 20px 0 20px;
+}
+/** 
+ * Bloques de citas
+ * 
+ * - - - - - - - - - - - - - */
+ blockquote:before,
+ blockquote:after{
+	height: 23px;
+	display: block;
+	border: none; 
+	margin: 0;
+	padding: 0;
+	line-height: 0.1;
+	width: 104.3%;
+	margin-left: -3%;
+	font-size: 1px;
+}
+blockquote:before{
+	background: #fff url("../images/mar06/corners/blockquote-top-right.png") scroll top right no-repeat;
+	content: url("../images/mar06/corners/blockquote-top-left.png");
+}
+blockquote:after {
+  content:  url("../images/mar06/corners/blockquote-bottom-left.png");
+  background: #fff url("../images/mar06/corners/blockquote-bottom-right.png") scroll no-repeat bottom right;
+  margin-bottom: 1em;
+}
+blockquote{
+	width: 96%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 1% 0 3%;
+	font-style: italic;
+}
+
+/** 
+ * Informacion del autor
+ * 
+ * - - - - - - - - - - - - - */
+.author-info{
+	margin: 1.7em 0 -10px 0;
+	
+}
+.author-info img{
+  	float: left;
+  	margin: 0 0 0 70px;
+}
+.author-info .author-description{
+	padding: 30px 0 0 165px;
+}
+.author-info p span{
+	color: #999;
+	font-style: italic;
+	font-size: 1.3em;
+}
+.author-info .weblog,
+.author-info .feed{
+	font-size: 0.85em;
+}
+/** 
+ * Contenido
+ * 
+ * - - - - - - - - - - - - - */
+.entry-content{
+	overflow: auto;
+}
+
+/** 
+ * Enlaces
+ * 
+ * - - - - - - - - - - - - - */
+#entry-wrap a:link, #entry-wrap a:visited{
+	color: #36c;
+	text-decoration: none;
+	border-bottom: 1px dotted #36c;
+}
+#entry-wrap a:hover{
+	color: #f60;
+	border-bottom: 1px dotted #f60;
+}
+#entry-wrap a:active{
+	color: #36c;
+	border-bottom: 1px dotted #36c;
+}
+#entry-wrap .entry-title a:link,
+#entry-wrap .entry-title a:visited
+{
+	color: #000;
+	text-decoration: none;
+	border-bottom: 0 none;
+}
+#entry-wrap .entry-title a:hover, #entry-wrap .entry-title a:active{
+	text-decoration: underline;
+}
+#entry-wrap .author-info cite a:link, #entry-wrap .author-info cite a:visited,
+#entry-wrap .author-info a.feed:link, #entry-wrap .author-info a.feed:visited,
+#entry-wrap .post-footer a.permalink:link, #entry-wrap .post-footer a.permalink:visited
+{
+	color: #39f;
+	border-bottom: 0 none;
+	font-style: normal;
+}
+#entry-wrap .author-info cite a:link, #entry-wrap .author-info cite a:visited{
+	display: block;
+	float: left;
+}
+#entry-wrap .post-footer a.permalink:link, #entry-wrap .post-footer a.permalink:visited{
+	background: transparent url("../images/mar06/permalink.png") 100% 50% no-repeat;
+	padding: 3px 21px 4px 0;
+}
+#entry-wrap .author-info a.feed:link, #entry-wrap .author-info a.feed:visited{
+	display: block;
+	float: left;
+	padding: 16px 0 0 0;
+	overflow: hidden;
+	height: 0 !important;
+	height /**/: 16px;
+	width: 16px;
+	background: transparent url("../images/mar06/feed.png") top left no-repeat;
+	margin: 0 0 0 5px;
+}
+#entry-wrap .author-info cite a:hover,
+#entry-wrap .author-info a.feed:hover,
+#entry-wrap .post-footer a.permalink:hover
+{
+	color: #f60;
+	border-bottom: 0 none;
+}
+#entry-wrap .author-info cite a:active,
+#entry-wrap .author-info a.feed:active,
+#entry-wrap .post-footer a.permalink:active
+{
+	color: #36c;
+	border-bottom: 0 none;
+}
+#entry-wrap .entry-content a img { border: 0 !important; }
+/** 
+ * Codigo
+ * 
+ * - - - - - - - - - - - - - */
+code{
+	color: #000;
+	font: 1em/1.46em "Bitstream Vera Sans Mono", monospace; 
+}
+pre { 
+	font-size: 1.1em; 
+	border: 1px dashed #ccc; 
+	background: #fff; 
+	padding: 5px 12px; 
+	margin: 5px auto;
+	overflow: auto;
+	color: #000;
+}
+/** 
+ * Encabezados
+ * 
+ * - - - - - - - - - - - - - */
+ h2.date{
+ 	font-size:1.8em;
+	line-height: 50px;
+ 	color: #636563;
+ 	font-weight: bold;
+ 	margin: 1em 0 -1em 2em;
+	background: transparent url("../images/mar06/date.png") 0 0 no-repeat;
+	padding-left: 52px;
+ }
+ h3.entry-title{
+ 	font-size: 1.4em;
+ 	font-weight: bold;
+ }
+/** 
+ * Listas
+ * 
+ * - - - - - - - - - - - - - */
+ #entry-wrap .entry-content ul{
+ 	margin: 5px 10px;
+ 	list-style-type: none;
+ }
+  #entry-wrap .entry-content ol{
+  margin: 5px 10px 5px 25px;
+  }
+ #entry-wrap .entry-content ul li{
+ 	background: url("../images/mar06/bullet.png") 0 2px no-repeat;
+ 	padding-left: 20px;
+ 	line-height: 1.65em;
+ } 
+#entry-wrap .entry-content ol li{
+ line-height: 1.65em;
+ }
+ #entry-wrap .entry-content dt{
+ 	font-weight: bold;
+ 	font-size: 1.05em;
+ 	color: #000;
+ }
+ #entry-wrap .entry-content dd{
+ 	margin-left: 1.5em;
+ }
+ /** 
+ * Misc
+ * 
+ * - - - - - - - - - - - - - */
+ acronym, abbr{
+ 	border-bottom: 1px dotted #444;
+ 	cursor: help;
+}
+hr { display: none; }
+p { margin-bottom: 1em; }
+
+#entry-wrap {
+}
+/* FEEDBURNER */
+#entry-wrap .entry-content .feedflare{ margin: 15px 0 0 0; }
+#entry-wrap .entry-content .feedflare a { border: 0 none !important; }
+
+/* TAGS */
+#entry-wrap .entry-content .tagdata{ margin: 0.5em 0; display: block; }
+
+#entry-wrap .entry-content a[rel="tag"]{ background: transparent url("../images/mar06/tag.png") 0 0 no-repeat; padding-left: 20px; border-bottom: 0 none; }
+
+/* IMAGENES */
+.entry-content .alignleft,
+.entry-content .left,
+.entry-content img[align="left"] {
+	float: left; margin: 0 0.8em 0.5em 0;
+}
+.entry-content .alignright,
+.entry-content .right,
+.entry-content img[align="right"]
+{
+	float: right; margin: 0 0 0.5em 0.8em;
+}
+.entry-content .aligncenter,
+.entry-content .center{
+	display: block; margin: 0.5em auto;
+}
