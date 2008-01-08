@@ -1,4 +1,6 @@
 #!/usr/bin/perl
+#!/usr/bin/env python
+#:p
 
 # Este es un comentario :-)
 die or die;
