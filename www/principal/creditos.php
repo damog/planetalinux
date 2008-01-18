@@ -23,7 +23,7 @@
 		<li>&nbsp;<a href="http://marcoalfonso.net">Marco Alfonso Ocampo</a>.</li>
 		<li>&nbsp;<a href="http://www.milmazz.com">Milton Mazzarri</a>.</li>
 		<li>&nbsp;<a href="http://www.maggit.com.mx">Raquel Hernández</a>.</li>
-		<li>&nbsp;<a href="http://www.es.gnome.org/EduardorRetamales">Eduardo Retamales</a>.</li>
+		<li>&nbsp;<a href="https://wiki.ubuntu.com/eretamales">Eduardo Retamales</a>.</li>
 		</ul>
 	</p>
 	<p><b>Contribuciones:</b>
