@@ -12,7 +12,6 @@
 		<a href="http://ve.planetalinux.org/"><img src="images/banderas/ve.png"></a>
 		<br />
 		<a href="http://planeta.debian.net"/><img src="images/banderas/debian.png"></a>
-		<a href="http://alternativa.planetalinux.org"/><img src="images/banderas/alternativa.png"></a>
 		</div>
 	</p>
 </div>
