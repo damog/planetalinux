@@ -5,7 +5,7 @@
 <div id="contenido">
 <fieldset id="recuadro2">
 <legend>Créditos</legend>
-	<p>Creado y administrado por <a href="http://www.damog.net">David Moreno Garza</a>.</p>
+	<p>Administrado por <a href="http://www.damog.net">David Moreno Garza</a> y <a href="http://xiam.be">José Carlos Nieto</a>.</p>
 	<p><b>Diseño:</b>
 		<ul>
 		<li>&nbsp;<a href="http://www.maggit.com.mx">Raquel Hernández</a>.</li>
@@ -18,7 +18,6 @@
 		<li>&nbsp;<a href="http://gnuget.underlife.org">David Valdez</a>.</li>
 		<li>&nbsp;<a href="http://www.razametal.tk/">Guillermo Salas</a>.</li>
 		<li>&nbsp;<a href="http://www.neocalderon.net">Antonio Calderón</a>.</li>
-		<li>&nbsp;<a href="http://xiam.be">José Carlos Nieto</a>.</li>
 		<li>&nbsp;<a href="http://www.bureado.com.ve">José Parrella</a>.</li>
 		<li>&nbsp;<a href="http://marcoalfonso.net">Marco Alfonso Ocampo</a>.</li>
 		<li>&nbsp;<a href="http://www.milmazz.com">Milton Mazzarri</a>.</li>
