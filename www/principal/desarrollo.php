@@ -183,7 +183,7 @@ por que muy probablemente ya tengas una cuenta de acceso y tu llave pública SSH
 
 <p>Para bajar todo el contenido del árbol de Planeta Linux a tu máquina, bastará con ejecutar:</p>
 
-<p><tt>$ svn co svn+ssh://usuario@planetalinux.org/svn/planetalinux</tt></p>
+<p><tt>$ svn checkout svn+ssh://usuario@menteslibres.org/home/planetalinux/svn planetalinux</tt></p>
 
 <p>Con <tt>co</tt> estás haciendo <em>checkout</em> y comenzará a descagar toda tu copia local. Es muy importante que tu
 llave local SSH sea la que estés usando desde <tt>~/.ssh/id_rsa.pub</tt>, de otra forma no será posible autenticarse
