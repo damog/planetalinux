@@ -5,9 +5,9 @@
 # Este es un comentario :-)
 die or die;
 use warnings;
-use fuse;
-use suse;
-use xuse;
+#use fuse;
+#use suse;
+#use xuse;
 
 # sí
 
