@@ -1,0 +1,35 @@
+--- !!perl/hash:Config::Tiny 
+DEFAULT: 
+  face: nobody.png
+Planet: 
+  cache_directory: /tmp/planetalinux
+  country: Ecuador
+  country_tld: ec
+  date_format: "%l:%M %P"
+  days_per_page: 5
+  encoding: utf-8
+  items_per_page: 50
+  link: http://ec.planetalinux.org/
+  locale: es_MX.UTF-8
+  log_level: DEBUG
+  name: Planeta Linux Ecuador
+  new_date_format: "%d de %B de %Y"
+  new_feed_items: 10
+  output_dir: /home/planetalinux/www/ec.planetalinux.org
+  owner_email: planetalinux@googlegroups.com
+  owner_name: Planeta Linux
+  template_files: /home/planetalinux/current/proc/ec/index.html.tmpl /home/planetalinux/current/proc/rss20.xml.tmpl /home/planetalinux/current/proc/opml.xml.tmpl
+http://alex.conlinux.net/?feed=rss2: 
+  name: Alex Patricio
+http://feeds.feedburner.com/InfinitePigTheorem: 
+  face: damog.png
+  name: David Moreno Garza
+http://feeds.feedburner.com/luigisalas: 
+  name: Luis E. Salas
+http://rudd-o.com/archives/category/linux/feed/: 
+  face: rudd-o.png
+  name: Manuel Amador
+http://www.devilsoulblack.com/feed/: 
+  name: "José Alfredo Andaluz"
+http://www.ecualug.org/?q=blog/3/feed: 
+  name: Richard de la Torre

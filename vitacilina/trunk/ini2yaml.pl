@@ -8,6 +8,8 @@
 use strict;
 use warnings;
 
+binmode STDOUT, ":encoding(ISO-8859-1)";
+
 use Config::Tiny;
 use Data::Dumper;
 use YAML::Syck;
