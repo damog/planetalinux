@@ -17,4 +17,4 @@ my $p = Vitacilina->new(
 	template	=> '../templates/main.tt',
 );
 
-print Dumper $p->render;
+$p->render;

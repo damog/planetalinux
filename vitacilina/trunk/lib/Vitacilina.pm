@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# Copyright (c) 2008 - Aximbox - http://www.axiombox.com/
+# Copyright (c) 2008 - Axiombox - http://www.axiombox.com/
 #	David Moreno Garza <david@axiombox.com>
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -28,12 +28,13 @@ use strict;
 use warnings;
 
 use URI;
+use Template;
 use XML::Feed;
 use YAML::Syck;
 use Data::Dumper;
 use Carp;
 
-use Vitacilina::Config qw/$FORMAT/;
+use Vitacilina::Config qw/$FORMAT $OUTPUT/;
 
 my $params = {
 	required => [qw{config template}],
@@ -47,6 +48,7 @@ sub new {
 	
 	return bless {
 		format			=> $opts{format} || $FORMAT,
+		output			=> $opts{output} || $OUTPUT,
 		config			=> $opts{config} || '',
 		title 			=> $opts{title} || '',
 		template		=> $opts{template} || '',
@@ -77,9 +79,25 @@ sub format {
 	$self->{format};
 }
 
+sub output {
+	my($self, $o) = shift;
+	$self->{output} = $o if $o;
+	$self->{output};
+}
+
 sub render {
 	my($self) = shift;
-	return $self->_data;
+	
+	my $tt = Template->new(
+		RELATIVE => 1
+	);
+	
+	$tt->process(
+		$self->template,
+		{ data => $self->_data },
+		$self->output
+	) or die $tt->error;
+	
 }
 
 sub _data {
@@ -110,7 +128,7 @@ sub _data {
 		push @entries, map {
 			{
 				author => $v->{name},
-				summary => $_->summary,
+				content => $_->content->body,
 				title => $_->title,
 				date => $_->issued,
 				date_modified => $_->modified,
@@ -126,6 +144,8 @@ sub _data {
 		<=>
 		($a->{date} || $b->{date_modified} || $zero)
 	} @entries;
+	
+	return \@entries;
 	
 }
 

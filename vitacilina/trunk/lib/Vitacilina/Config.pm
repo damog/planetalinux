@@ -24,8 +24,9 @@ package Vitacilina::Config;
 
 require Exporter;
 @ISA = qw(Exporter);
-@EXPORT = qw/$FORMAT/;
+@EXPORT = qw/$FORMAT $OUTPUT/;
 
 our $FORMAT = 'RSS';
+our $OUTPUT = 'index.html';
 
 1;

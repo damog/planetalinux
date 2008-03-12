@@ -1,0 +1,23 @@
+[% USE Dumper %]
+
+<HTML>
+
+<HEAD>
+<TITLE>[% data.bleh %]</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</HEAD>
+
+<BODY>
+<h1>Some title</h1>
+[% FOREACH p IN data %]
+
+	<h2 class="plEntryTitle">[% p.title %]</h2>
+	<h3 class="plEntryAuthor">[% p.author %]</h2>
+	
+	<div class="plEntryBody">
+		[% p.content %]
+	</div>
+	
+[% END %] 
+</BODY>
+</HTML>
