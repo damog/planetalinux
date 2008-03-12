@@ -1,9 +1,0 @@
-Vitacilina depends on the following modules:
-	URI
-	Template
-	XML::Feed
-	YAML::Syck
-
-And from the Perl core:
-	Data::Dumper
-	Carp
