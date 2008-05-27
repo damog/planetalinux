@@ -92,6 +92,14 @@
 	background: transparent url("../images/mar06/es.png") 0 -26px no-repeat;
 }  
 
+#navbar #sv a:link, #navbar  #sv a:visited{
+	background: transparent url("../images/mar06/sv.png") 0 3px no-repeat;
+}
+#navbar #sv a:hover, #navbar #sv a:focus, #navbar #sv a:active, #navbar #sv.current a{ 
+	background: transparent url("../images/mar06/sv.png") 0 -26px no-repeat;
+}  
+
+
 #navbar #home a:link, #navbar #home a:visited{
 	background: transparent url("../images/mar06/go-home.png") 0 0 no-repeat;
 }  
