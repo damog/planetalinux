@@ -99,6 +99,21 @@
 	background: transparent url("../images/mar06/sv.png") 0 -26px no-repeat;
 }  
 
+#navbar #ni a:link, #navbar  #ni a:visited{
+	background: transparent url("../images/mar06/ni.png") 0 3px no-repeat;
+}
+
+#navbar #ni a:hover, #navbar #ni a:focus, #navbar #ni a:active, #navbar #ni.current a{ 
+	background: transparent url("../images/mar06/ni.png") 0 -26px no-repeat;
+}  
+
+#navbar #pa a:link, #navbar  #pa a:visited{
+	background: transparent url("../images/mar06/pa.png") 0 3px no-repeat;
+}
+
+#navbar #pa a:hover, #navbar #pa a:focus, #navbar #pa a:active, #navbar #pa.current a{ 
+	background: transparent url("../images/mar06/pa.png") 0 -26px no-repeat;
+}  
 
 #navbar #home a:link, #navbar #home a:visited{
 	background: transparent url("../images/mar06/go-home.png") 0 0 no-repeat;
@@ -106,6 +121,7 @@
 #navbar #home a:hover, #navbar #home a:focus, #navbar #home a:active, #navbar #home.current a{
 	background: transparent url("../images/mar06/go-home.png") 0 -25px no-repeat;
 }
+
 
 /** 
  * Encabezado
