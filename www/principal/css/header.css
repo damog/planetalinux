@@ -31,6 +31,7 @@
 #navbar a:link, #navbar a:visited{
 	color: #666;
 	text-decoration: none;
+	width: 900px;
 }
 #navbar a:hover, #navbar a:active{
 	color: #f60;
