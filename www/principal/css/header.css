@@ -31,7 +31,7 @@
 #navbar a:link, #navbar a:visited{
 	color: #666;
 	text-decoration: none;
-	width: 900px;
+	
 }
 #navbar a:hover, #navbar a:active{
 	color: #f60;
@@ -45,7 +45,7 @@
  * Navegacion
  * 
  * - - - - - - - - - - - - - */
-#navbar{ float:right; margin: 80px 1em 0 0; }
+#navbar{ float:right; margin: 80px 1em 0 0; width: 900px;}
 #navbar li{ margin-right: 15px; list-style-type: none; display: inline; }
 #navbar li a{ padding-left: 22px; }
 #navbar #mx a:link, #navbar #mx a:visited{ 
