@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<title><TMPL_VAR name></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="http://planetalinux.org/css/main.css" type="text/css" />
+<link rel="shortcut icon" type="image/png" href="http://planetalinux.org/favicon.png" />
+<link rel="alternate" type="application/rss+xml" title="Planeta Linux | Panama" href="rss20.xml" />
+</head>
+
+<body>
+<div id="header">
+  <div id="inside">
+    <h1 id="header-title"><a href="http://pa.planetalinux.org/" title="Planeta Linux | Panamá"><TMPL_VAR name></a></h1>
+    <p id="goto-content"><a href="#entry-wrap" title="Ir al contenido">Ir al Contenido</a></p>
+    <div id="menu">
+      <ul id="navbar">        
+	<li id="home"><a href="http://www.planetalinux.org" title="Planeta Linux | P&aacute;gina Principal">home</a></li>
+	<li id="cl"><a href="http://cl.planetalinux.org/" title="Planeta Linux | Chile">Chile</a></li>
+	<li id="co"><a href="http://co.planetalinux.org/" title="Planeta Linux | Colombia">Colombia</a></li>
+	<li id="ec"><a href="http://ec.planetalinux.org/" title="Planeta Linux | Ecuador">Ecuador</a></li>
+	<li id="sv"><a href="http://sv.planetalinux.org/" title="Planeta Linux | El Salvador">El Salvador</a></li>
+	<li id="es"><a href="http://es.planetalinux.org/" title="Planeta Linux | España">España</a></li>
+	<li id="mx"><a href="http://mx.planetalinux.org/" title="Planeta Linux | M&eacute;xico">M&eacute;xico</a></li>
+        <li id="pa" class="current"><a href="http://pa.planetalinux.org/" title="Planeta Linux | Panamá">Panamá</a></li>
+	<li id="pe"><a href="http://pe.planetalinux.org/" title="Planeta Linux | Per&uacute;">Per&uacute;</a></li>
+        <li id="ve"><a href="http://ve.planetalinux.org/" title="Planeta Linux | Venezuela">Venezuela</a></li>	
+      </ul>
+    </div><!--/menu-->
+  </div><!--/inside-->
+</div><!--/header-->
+
+
+
+<div id="entry-wrap">
+
+
+<TMPL_LOOP Items>
+	<TMPL_IF new_date>
+	<h2 class="date"><TMPL_VAR new_date></h2>
+	</TMPL_IF>
+	<div class="entry">
+		<div class="author-info">
+			<TMPL_IF channel_face><img class="cabeza" src="images/cabezas/<TMPL_VAR channel_face ESCAPE="HTML">" alt="<TMPL_VAR channel_name>" title="Hackergotchi de <TMPL_VAR channel_name>" /></TMPL_IF>
+      	<div class="author-description"><p><span><TMPL_VAR channel_name></span><br />
+      	<cite><a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="Blog de: <TMPL_VAR channel_name>" class="weblog"><TMPL_VAR channel_title></a></cite>
+      	<a href="<TMPL_VAR channel_url ESCAPE="HTML">" title="Feed de: <TMPL_VAR channel_title>" class="feed">feed</a></p></div><!--/author-description-->
+    	</div><!--/author-info-->
+		<div class="post">
+			<div class="post-inner">
+				<h3 class="entry-title"><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF title><TMPL_VAR title><TMPL_ELSE>(Sin T&iacute;tulo)</TMPL_IF></a></h3>
+				<div class="entry-content">
+				<TMPL_VAR content>
+				</div><!--/entry-content-->
+				<div class="post-footer">
+      					<p><a href="<TMPL_VAR link ESCAPE="HTML">" class="permalink"><TMPL_VAR date></a></p>
+				</div><!--post-footer-->
+    			</div><!--/post-inner-->
+		</div><!--/post-->
+	  </div><!--/entry-->
+
+	<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "pub-1485276815879095";
+/* planeta linux */
+google_ad_slot = "0827081490";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+	</div>
+
+</TMPL_LOOP>
+</div><!--entry-wrap-->
+
+<div id="sidebar">
+    
+    <div id="first" class="inner">
+      <h3 id="about">Acerca</h3>
+      <p><em>Planeta Linux</em> es un peque&ntilde;o proyecto que pretende fomentar la comunicaci&oacute;n e intercambio sencillo de informaci&oacute;n sobre cualquier usuario de GNU/Linux o software libre. Con esta breve comunicaci&oacute;n, podremos conformar una comunidad mucho m&aacute;s s&oacute;lida, unificada e integral.</p>
+      <p>Si desea conocer m&aacute;s sobre nuestro proyecto, puedes informarte detalladamente en <a href="http://www.planetalinux.org/faq.php">Acerca de Planeta Linux</a>.</p>
+    </div><!--/inner-->
+
+    
+    <div id="middle" class="inner">
+      <h3 id="colabora">Colabora</h3>
+      <p>Si te interesa ser miembro de <em>Planeta Linux</em>, por favor,
+	  aseg&uacute;rate de leer <a href="http://www.planetalinux.org/lineamientos.php">los lineamientos</a>
+	  para poder ser inclu&iacute;do y posteriormente 
+	  env&iacute;a un correo electr&oacute;nico a la
+	  <a href="mailto:planetalinux@googlegroups.com">lista de correos</a> para que se te agregue.
+
+	  Cualquier persona, usuaria o desarrolladora de GNU/Linux o software libre, puede ser agregado.</p>
+    	<h3 id="difunde">Difunde</h3>
+    	<p>Ay&uacute;danos a promocionar nuestro Planeta. Por favor, haz uso de estos <a href="http://www.planetalinux.org/banners.php" title="Botones de Planeta Linux">botones</a>.</p>
+    </div><!--/inner-->
+   
+   <div id="planet-map" class="inner">
+   	<h3 id="worldwide">PL en el Mundo</h3>
+   	<p>&iquest;Eres miembro o lector de Planeta Linux? &iexcl;Ap&uacute;ntate al mapa!</p>
+	<script>
+		var frappr_mapheight = 200;
+		var frappr_mapwidth = 150;
+		var frappr_maplat = 19.43;
+		var frappr_maplon = -99.1;
+		var frappr_mapzoom = 14;
+		var frappr_host = "http://www.frappr.com/";var gid = 616678;</script>
+		<script src="http://www.frappr.com/ajax/mapwidget.js"></script>
+   </div><!--/inner-->
+																       
+    <div id="last" class="inner">
+      <h3 id="bloggers">Gente</h3>
+      <ul id="members">
+        <TMPL_LOOP Channels>
+		  <li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+		  </TMPL_LOOP>
+      </ul>
+
+<br><br><br>
+
+         </div><!--/inner-->
+	 
+</div><!--/sidebar-->
+
+<div id="footer">
+<div id="footer-content">
+      <p>Los art&iacute;culos, noticias o comentarios presentes en <em>Planeta Linux</em> son <em>exclusivamente</em> responsabilidad de sus respectivos autores.</p>
+      <p><em>Planeta Linux</em> no genera contenido de ning&uacute;n tipo, los art&iacute;culos expuestos provienen de otros sitios, no se mantiene un control estricto sobre el contenido publicado por cada uno de sus miembros.</p>
+      <p><em>Planeta Linux</em> es gestionado por <a href="http://www.planetplanet.org" title="Planet" hreflang="en">Planet</a>, dise&ntilde;o realizado por <a href="http://www.milmazz.com" title="Milmazz | Weblog de Milton Mazzarri" hreflang="es">Milton Mazzarri</a>.<br />Administrado por <a href="http://www.damog.net" title="Damog | Weblog de David Moreno Garza" hreflang="es">David Moreno Garza</a>.</p>
+</div><!--footer-content-->
+</div><!--/footer-->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2893923-1";
+urchinTracker();
+</script>
+
+</body>
+</html>
