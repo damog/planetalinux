@@ -7,8 +7,8 @@
 		<a href="http://es.planetalinux.org/"><img src="images/banderas/es.png"></a>&nbsp;&nbsp;
 		<a href="http://cl.planetalinux.org/"><img src="images/banderas/cl.png"></a>&nbsp;&nbsp;
 		<a href="http://co.planetalinux.org/"><img src="images/banderas/co.png"></a>&nbsp;&nbsp;
-		<a href="http://mx.planetalinux.org/"><img src="images/banderas/mx.png"></a>&nbsp;&nbsp;
-                <a href="http://sv.planetalinux.org/"><img src="images/banderas/sv.png"></a>&nbsp;&nbsp;
+		<a href="http://sv.planetalinux.org/"><img src="images/banderas/sv.png"></a>&nbsp;&nbsp;
+		<a href="http://mx.planetalinux.org/"><img src="images/banderas/mx.png"></a>&nbsp;&nbsp;                
 		<a href="http://pe.planetalinux.org/"><img src="images/banderas/pe.png"></a>&nbsp;&nbsp;
 		<a href="http://ve.planetalinux.org/"><img src="images/banderas/ve.png"></a>
 		<br />
