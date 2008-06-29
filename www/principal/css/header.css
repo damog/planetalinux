@@ -124,6 +124,16 @@
 	background: transparent url("../images/mar06/cr.png") 0 -26px no-repeat;
 }
 
+#navbar #gt a:link, #navbar  #gt a:visited{
+	background: transparent url("../images/mar06/gt.png") 0 3px no-repeat;
+}
+
+#navbar #gt a:hover, #navbar #gt a:focus, #navbar #gt a:active, #navbar #gt.current a{ 
+	background: transparent url("../images/mar06/gt.png") 0 -26px no-repeat;
+}
+
+
+
 #navbar #home a:link, #navbar #home a:visited{
 	background: transparent url("../images/mar06/go-home.png") 0 0 no-repeat;
 }  

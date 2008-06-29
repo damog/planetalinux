@@ -8,7 +8,7 @@
 	*
 	*	@license	http://www.gnu.org/copyleft/gpl.html GNU/GPL License 2.0
 	*	@author		J. Carlos Nieto <xiam@users.sourceforge.net>
-	*	@version	CVS: $Id:$
+	*	@version	CVS: $Id$
 	*	@link		http://xiam.menteslibres.org
 	*/
 
