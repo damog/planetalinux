@@ -1,0 +1,27 @@
+	<TMPL_IF channel_portal>
+	
+		<a href="<TMPL_VAR channel_link ESCAPE="HTML">"><strong><TMPL_VAR channel_title></strong>: <a href="<TMPL_VAR link ESCAPE="html">"><TMPL_VAR title></a>
+		  </div><!--/entry-->
+	<TMPL_ELSE>
+	
+
+		<div class="author-info">
+			<TMPL_IF channel_face><img class="cabeza" src="images/cabezas/<TMPL_VAR channel_face ESCAPE="HTML">" alt="<TMPL_VAR channel_name>" title="Hackergotchi de <TMPL_VAR channel_name>" /></TMPL_IF>
+      	<div class="author-description"><p><span><TMPL_VAR channel_name></span><br />
+      	<cite><a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="Blog de: <TMPL_VAR channel_name>" class="weblog"><TMPL_VAR channel_title></a></cite>
+      	<a href="<TMPL_VAR channel_url ESCAPE="HTML">" title="Feed de: <TMPL_VAR channel_title>" class="feed">feed</a></p></div><!--/author-description-->
+    	</div><!--/author-info-->
+		<div class="post">
+			<div class="post-inner">
+				<h3 class="entry-title"><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF title><TMPL_VAR title><TMPL_ELSE>(Sin T&iacute;tulo)</TMPL_IF></a></h3>
+				<div class="entry-content">
+				<TMPL_VAR content>
+				</div><!--/entry-content-->
+				<div class="post-footer">
+      					<p><a href="<TMPL_VAR link ESCAPE="HTML">" class="permalink"><TMPL_VAR date></a></p>
+				</div><!--post-footer-->
+    			</div><!--/post-inner-->
+		</div><!--/post-->
+	  </div><!--/entry-->
+	  
+	  </TMPL_IF>
