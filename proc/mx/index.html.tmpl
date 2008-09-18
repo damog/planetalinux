@@ -43,14 +43,15 @@
 	<h2 class="date"><TMPL_VAR new_date></h2>
 	</TMPL_IF>
 
+	<div class="entry">
 
 	<TMPL_IF channel_portal>
 	
-	<a href="<TMPL_VAR channel_url ESCAPE="HTML">"><TMPL_VAR channel_title>: <a href="<TMPL_VAR link ESCAPE="html">"><TMPL_VAR title></a>
+		<a href="<TMPL_VAR channel_url ESCAPE="HTML">"><TMPL_VAR channel_title>: <a href="<TMPL_VAR link ESCAPE="html">"><TMPL_VAR title></a>
 	
 	<TMPL_ELSE>
 	
-	<div class="entry">
+
 		<div class="author-info">
 			<TMPL_IF channel_face><img class="cabeza" src="images/cabezas/<TMPL_VAR channel_face ESCAPE="HTML">" alt="<TMPL_VAR channel_name>" title="Hackergotchi de <TMPL_VAR channel_name>" /></TMPL_IF>
       	<div class="author-description"><p><span><TMPL_VAR channel_name></span><br />
@@ -70,22 +71,23 @@
 		</div><!--/post-->
 	  </div><!--/entry-->
 	  
+	  	<div align="center">
+		<script type="text/javascript"><!--
+		google_ad_client = "pub-1485276815879095";
+		/* planeta linux */
+		google_ad_slot = "0827081490";
+		google_ad_width = 468;
+		google_ad_height = 60;
+		//-->
+		</script>
+		<script type="text/javascript"
+		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+
+
+	  
 	  </TMPL_IF>
-
-	<div align="center">
-<script type="text/javascript"><!--
-google_ad_client = "pub-1485276815879095";
-/* planeta linux */
-google_ad_slot = "0827081490";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
 	</div>
-
 </TMPL_LOOP>
 </div><!--entry-wrap-->
 
