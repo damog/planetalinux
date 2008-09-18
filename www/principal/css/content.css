@@ -211,6 +211,7 @@ pre {
  	margin: 1em 0 -1em 2em;
 	background: transparent url("../images/mar06/date.png") 0 0 no-repeat;
 	padding-left: 52px;
+	padding-bottom: 20px;
  }
  h3.entry-title{
  	font-size: 1.4em;
