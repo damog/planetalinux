@@ -37,7 +37,7 @@
 
 <div id="entry-wrap">
 
-
+<br /><br /><br />
 <TMPL_LOOP Items>
 	<TMPL_IF new_date>
 	<h2 class="date"><TMPL_VAR new_date></h2>
@@ -47,7 +47,7 @@
 
 	<TMPL_IF channel_portal>
 	
-		<a href="<TMPL_VAR channel_url ESCAPE="HTML">"><TMPL_VAR channel_title>: <a href="<TMPL_VAR link ESCAPE="html">"><TMPL_VAR title></a>
+		<a href="<TMPL_VAR channel_link ESCAPE="HTML">"><strong><TMPL_VAR channel_title></strong>: <a href="<TMPL_VAR link ESCAPE="html">"><TMPL_VAR title></a>
 	
 	<TMPL_ELSE>
 	
