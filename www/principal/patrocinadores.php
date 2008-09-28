@@ -7,7 +7,6 @@
 <fieldset id="recuadro2">
 <legend>Nuestros patrocinadores</legend>
   <div id="banderas">
-	<a href="http://astrata.com.mx"><img src="images/astrata.jpg" align="center"></a>
   </div>
 </fieldset>
 </div>
