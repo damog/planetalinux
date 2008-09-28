@@ -14,11 +14,12 @@
 <div id="tabs">
   <ul>
     <li><a href="index.php" title="Inicio"><span>Inicio</span></a></li>
+    <li><a href="http://blog.planetalinux.org" title="Blog"><span>Blog</span></a></li>
     <li><a href="lineamientos.php" title="Lineamientos"><span>Lineamientos</span></a></li>
     <li><a href="faq.php" title="Faq"><span>FAQ</span></a></li>
     <li><a href="patrocinadores.php" title="Patrocinadores"><span>Patrocinadores</span></a></li>
 	<li><a href="contacto.php" title="Contacto"><span>Contacto</span></a></li>
 	<li><a href="banners.php" title="Arte"><span>Arte</span></a></li>
-	<li><a href="creditos.php" title="Arte"><span>Créditos</span></a></li>
+	<li><a href="creditos.php" title="Créditos"><span>Créditos</span></a></li>
   </ul>
 </div>
