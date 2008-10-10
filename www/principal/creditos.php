@@ -18,7 +18,7 @@
 
 	<p><b>Mantenedores:</b>
 		<ul>		
-		<li>&nbsp;<a href="http://www.neocalderon.net">Antonio Calderón</a>.</li>
+		<li>&nbsp;<a href="http://neocalderon.org">Antonio Calderón</a>.</li>
 		<li>&nbsp;<a href="http://marcoalfonso.net">Marco Alfonso Ocampo</a>.</li>
 		<li>&nbsp;<a href="http://www.maggit.com.mx">Raquel Hernández</a>.</li>
 		<li>&nbsp;<a href="https://wiki.ubuntu.com/eretamales">Eduardo Retamales</a>.</li>
