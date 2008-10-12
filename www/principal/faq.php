@@ -21,7 +21,7 @@
     
 <fieldset id="recuadro2">
 	<legend><a href="#Unirse" name="Unirse">¿Cómo me uno?</a></legend>
-      <p>Hasta este momento la única forma de agregarse al rol es enviando un correo electrónico a la <a href="mailto:planetalinux@googlegroups.com.com">lista de correos</a> solicitando que se te agregue. <strong>Por favor, escribe tu nombre completo, URL del blog, URL del feed e indica la instancia del país donde quieres aparecer (México, Venezuela, Chile, etc)</strong>. Antes de cualquier cosa, asegúrate de leer nuestros <a href="lineamientos.php">lineamientos</a>.</p>
+      <p>Hasta este momento la única forma de agregarse al rol es enviando un correo electrónico a la <a href="mailto:planetalinux@googlegroups.com">lista de correos</a> solicitando que se te agregue. <strong>Por favor, escribe tu nombre completo, URL del blog, URL del feed e indica la instancia del país donde quieres aparecer (México, Venezuela, Chile, etc)</strong>. Antes de cualquier cosa, asegúrate de leer nuestros <a href="lineamientos.php">lineamientos</a>.</p>
 </fieldset>
 
 <fieldset id="recuadro2">
