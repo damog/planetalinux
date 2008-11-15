@@ -34,63 +34,7 @@
 </div><!--/header-->
 
 
-<TMPL_INCLUDE main_adsense.tmpl>
-
-<div id="entry-wrap">
-
-<TMPL_LOOP Items>
-	<TMPL_IF new_date>
-	<h2 class="date"><TMPL_VAR new_date></h2>
-	</TMPL_IF>
-
-	<div class="entry">
-
-	<TMPL_INCLUDE single_entry.tmpl>
-	
-</TMPL_LOOP>
-</div><!--entry-wrap-->
-
-<div id="sidebar">
-
-    <TMPL_INCLUDE sidebar_about.tmpl>
-
-    <TMPL_INCLUDE twitter_badge.tmpl>
-    
-
-    <div id="middle" class="inner">
-      <h3 id="colabora">Colabora</h3>
-      <p>Si te interesa ser miembro de <em>Planeta Linux</em>, por favor,
-	  aseg&uacute;rate de leer <a href="http://www.planetalinux.org/lineamientos.php">los lineamientos</a>
-	  para poder ser inclu&iacute;do y posteriormente 
-	  env&iacute;a un correo electr&oacute;nico a la
-	  <a href="mailto:planetalinux@googlegroups.com">lista de correos</a> para que se te agregue.
-
-	  Cualquier persona, usuaria o desarrolladora de GNU/Linux o software libre, puede ser agregado.</p>
-    	<h3 id="difunde">Difunde</h3>
-    	<p>Ay&uacute;danos a promocionar nuestro Planeta. Por favor, haz uso de estos <a href="http://www.planetalinux.org/banners.php" title="Botones de Planeta Linux">botones</a>.</p>
-    </div><!--/inner-->
-   
-    <div id="last" class="inner">
-      <h3 id="bloggers">Gente</h3>
-      <ul id="members">
-        <TMPL_LOOP Channels>
-		  <li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
-		  </TMPL_LOOP>
-      </ul>
-
-<br><br><br>
-
-         </div><!--/inner-->
-	 
-</div><!--/sidebar-->
-
-<div id="footer">
-<div id="footer-content">
-      <p>Los art&iacute;culos, noticias o comentarios presentes en <em>Planeta Linux</em> son <em>exclusivamente</em> responsabilidad de sus respectivos autores.</p>
-      <p><em>Planeta Linux</em> no genera contenido de ning&uacute;n tipo, los art&iacute;culos expuestos provienen de otros sitios, no se mantiene un control estricto sobre el contenido publicado por cada uno de sus miembros.</p>
-      <p><em>Planeta Linux</em> es gestionado por <a href="http://www.planetplanet.org" title="Planet" hreflang="en">Planet</a>, dise&ntilde;o realizado por <a href="http://www.milmazz.com" title="Milmazz | Weblog de Milton Mazzarri" hreflang="es">Milton Mazzarri</a>.<br />Administrado por <a href="http://www.damog.net" title="Damog | Weblog de David Moreno Garza" hreflang="es">David Moreno Garza</a>.</p>
-</div><!--footer-content-->
-</div><!--/footer-->
+<TMPL_INCLUDE trunk.tmpl>
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
