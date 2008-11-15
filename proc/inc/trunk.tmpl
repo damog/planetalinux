@@ -17,14 +17,14 @@
 <div id="sidebar">
 
 	<div id="first" class="inner">
-		<h3 id="about">Acerca</h3>
+		<h3 class="sidebartitle">Acerca</h3>
 			<p>¡<em>Planeta Linux</em> es una comunidad de latinoamericanos blogueando sobre Linux!</p>
-			<p>Si deseas conocer m&aacute;s sobre este proyecto, puedes informarte detalladamente <a href="http://www.planetalinux.org/faq.php">aquí</a>.</p>
+			<p>Si deseas conocer más sobre este proyecto, puedes informarte detalladamente <a href="http://www.planetalinux.org/faq.php">aquí</a>.</p>
 	</div><!--/inner-->
 
 	<div id="middle" class="inner">
 	
-		<h3 class="twitter">Twitter</h3>
+		<h3 class="sidebartitle">Twitter</h3>
 
 		<div id="twitter_div">
 			<ul id="twitter_update_list"></ul>
@@ -38,7 +38,7 @@
     
 
 
-      	<h3 class="sidebar_title">Colabora</h3>
+      	<h3 class="sidebartitle">Colabora</h3>
 			<p>Si te interesa ser miembro de <em>Planeta Linux</em>, por favor,
 			asegúrate de leer <a href="http://www.planetalinux.org/lineamientos.php">los lineamientos</a>
 			para poder ser incluído y posteriormente 
@@ -49,11 +49,11 @@
 		  
 		  
 		  
-		<h3 class="sidebar_title">Difunde</h3>
+		<h3 class="sidebartitle">Difunde</h3>
 			<p>Ayúdanos a promocionar nuestro Planeta. Por favor, haz uso de estos <a href="http://www.planetalinux.org/banners.php" title="Botones de Planeta Linux">botones</a>.</p>
 
 
-		<h3 class="sidebar_title">Gente</h3>
+		<h3 class="sidebartitle">Gente</h3>
 			<ul id="members">
 			<TMPL_LOOP Channels>
 				<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
@@ -61,6 +61,8 @@
 			</ul>
 
 		<br><br><br>
+
+	<div id="last" class="inner"></div>
 
 	</div><!--/inner-->
 	 
