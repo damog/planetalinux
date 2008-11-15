@@ -6,7 +6,7 @@
 <fieldset id="recuadro2">
 <legend>Contacto</legend>
 	<p>Planeta Linux es trabajado desde una lista de correo. Si te interesa ponerte en contacto con nosotros, hazlo por favor
-	a la dirección <b><a href="mailto:planetalinux@googlegroups.com">planetalinux@googlegroups.com</a></b>.</p>
+	a la dirección <b><a href="mailto:rt@rt.planetalinux.org">rt@rt.planetalinux.org</a></b>.</p>
 	
 	<p>Además, es común que nos encontremos en IRC chateando y perdiendo el tiempo más de la costumbre, en <tt>#planetalinux</tt> de <tt>irc.freenode.net</tt>.</p>
 

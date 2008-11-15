@@ -21,7 +21,7 @@
     
 <fieldset id="recuadro2">
 	<legend><a href="#Unirse" name="Unirse">¿Cómo me uno?</a></legend>
-      <p>Hasta este momento la única forma de agregarse al rol es enviando un correo electrónico a la <a href="mailto:planetalinux@googlegroups.com">lista de correos</a> solicitando que se te agregue. <strong>Por favor, escribe tu nombre completo, URL del blog, URL del feed e indica la instancia del país donde quieres aparecer (México, Venezuela, Chile, etc)</strong>. Antes de cualquier cosa, asegúrate de leer nuestros <a href="lineamientos.php">lineamientos</a>.</p>
+      <p>Hasta este momento la única forma de agregarse al rol es enviando un correo electrónico a la <a href="mailto:rt@rt.planetalinux.org">nuestro sistema de tickets</a> solicitando que se te agregue. <strong>Por favor, escribe tu nombre completo, URL del blog, URL del feed e indica la instancia del país donde quieres aparecer (México, Venezuela, Chile, etc)</strong>. Antes de cualquier cosa, asegúrate de leer nuestros <a href="lineamientos.php">lineamientos</a>.</p>
 </fieldset>
 
 <fieldset id="recuadro2">
@@ -78,16 +78,12 @@ cabeza completa.</p>
 </fieldset>
 <fieldset id="recuadro2">
 	<legend><a href="#ListadePlanetaLinux" name="ListadePlanetaLinux">¿Qué se pretende hacer en la lista de correo de Planeta Linux?</a></legend>
-	<p>El sitio crece a ritmos acelerados, hay mucha gente nueva interesada que quiere ser agregada: Ahí se envian esas peticiones y se discute cualquier anomalía. Ahí anunciamos probables cambios que puedan ser deliberados en conjunto y que no parezca un proyecto centralizado (por favor, dejen de enviarle correos privados a David para que los agreguen, hay más gente en la lista con acceso al <a href="desarrollo.php">repositorio de Subversion</a> que pueden hacer esto). Encuentra más información sobre la lista de correos <a href="contacto.php">aquí</a>.</p>
-</fieldset>
-<fieldset id="recuadro2">
-	<legend><a href="#DarseBajaLista" name="DarseBajaLista">¿Y si no quiero estar en la lista de correos?</a></legend>
-        <p>En primer lugar, no es necesario que estés en ella. Estamos en ella quienes trabajamos en las tripas de Planeta Linux.</p>
+	<p>El sitio crece a ritmos acelerados, hay mucha gente nueva interesada que quiere ser agregada: Ahí se envian esas peticiones y se discute cualquier anomalía. Ahí anunciamos probables cambios que puedan ser deliberados en conjunto y que no parezca un proyecto centralizado (por favor, dejen de enviarle correos privados a David para que los agreguen). Encuentra más información de contacto <a href="contacto.php">aquí</a>.</p>
 </fieldset>
 
 <fieldset id="recuadro2">
 	<legend><a href="#NoActualizaFeed" name="NoActualizaFeed">Hice una entrada en mi blog y no aparece en Planeta Linux, ¿qué debo hacer?</a></legend>
-	<p>Primero, debes preguntarte si realmente estás agregado. Si no es así, debes solicitar tu inclusión. Segundo: Si estás inscrito, las entradas sindicalizadas pueden tardar algo de tiempo, a veces horas. Tercero, si ya ha pasado tiempo considerable y no aparece tu envío, hazlo saber en la lista. Recuerda que la gente que colabora en Planeta Linux también tiene que hacerse el desayuno, sacar a pasear al perro y salir a parrandear con los panas, entonces este proceso es secuencial e imperativo sólo cuando fallen los dos primeros casos.</p>
+	<p>Primero, debes preguntarte si realmente estás agregado. Si no es así, debes solicitar tu inclusión. Segundo: Si estás inscrito, las entradas sindicalizadas pueden tardar algo de tiempo, a veces horas. Tercero, si ya ha pasado tiempo considerable y no aparece tu envío, hazlo saber en nuestro sistema de tickets. Recuerda que la gente que colabora en Planeta Linux también tiene que hacerse el desayuno, sacar a pasear al perro y salir a parrandear con los panas, entonces este proceso es secuencial e imperativo sólo cuando fallen los dos primeros casos.</p>
         <p>Sin embargo, es sabido que en ciertas ocasiones puede deberse a ciertos comportamientos extraños del software que se utiliza como backend de Planeta Linux, <a href="http://www.planetplanet.org">Planet</a>, por ello se espera desarrollar un aplicación en Perl adaptada a las necesidades específicas de Planeta Linux, algún día.</p>
 </fieldset>
 <fieldset id="recuadro2">
@@ -101,7 +97,7 @@ hizo Milton Mazzarri al respecto.</p>
 </fieldset>
 <fieldset id="recuadro2">
 	<legend><a href="#CrearInstancia" name="CrearInstancia">¿Qué puedo hacer si mi país no tiene instancia en Planeta Linux?</a></legend>
-	<p>¿Tienes conocimiento de más usuarios/desarrolladores de software libre en tu país que mantengan un blog? Si es así, simplemente indica en la lista de correos tu deseo por que se integre una nueva instancia y provee las URLs de los blogs de tus amigos. Tú podrías ser el encargado de mantener actualizado el listado de feeds de tu país.</p>
+	<p>¿Tienes conocimiento de más usuarios/desarrolladores de software libre en tu país que mantengan un blog? Si es así, simplemente indica en nuestro sistema de tickets tu deseo por que se integre una nueva instancia y provee las URLs de los blogs de tus amigos. Tú podrías ser el encargado de mantener actualizado el listado de feeds de tu país.</p>
 </fieldset>
 <fieldset id="recuadro2">
 	<legend><a href="#Contacto" name="Contacto">¿Cómo puedo ponerme en contacto con ustedes?</a></legend>
