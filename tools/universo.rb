@@ -45,7 +45,7 @@ cache_directory = /tmp/planetalinux
 new_feed_items = 10
 log_level = DEBUG
 
-template_files = /home/planetalinux/current/proc/mx/index.html.tmpl /home/planetalinux/current/proc/rss20-new.xml.tmpl
+template_files = /home/planetalinux/current/proc/rss20-new.xml.tmpl
 output_dir = /home/planetalinux/www/universo.planetalinux.org
 
 items_per_page = 60
@@ -70,5 +70,7 @@ EOF
 end
 
 universo = PlanetaLinuxUniverso.new
-puts universo.dump
+File.open("#{File.dirname(__FILE__)}/../proc/universo/config.ini", "w") do |f|
+	f.write(universo.dump)
+end
 
