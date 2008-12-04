@@ -74,4 +74,3 @@ File.open("#{File.dirname(__FILE__)}/../proc/universo/config.ini", "w") do |f|
 	f.write(universo.dump)
 end
 
-
