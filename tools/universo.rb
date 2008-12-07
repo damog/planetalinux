@@ -1,10 +1,13 @@
 #!/usr/bin/ruby
 
+require "ini"
+debug = 0
+
 module PlanetaLinux
-	def PlanetaLinux.get_all
+	def self.get_all
 		all = String.new
 		str = Dir["#{File.expand_path(File.dirname(__FILE__))}/../proc/*/config.ini"].each do |i|
-			next if File.directory?(i)
+			next if File.directory?(i) or i =~ /universo\/config.ini/
 
 			i =~ /proc\/(.+?)\/config\.ini$/i
 			all << self.get_subs(i, $1)
@@ -13,13 +16,21 @@ module PlanetaLinux
 
 	end
 
-	def PlanetaLinux.get_subs(i, instance)
+	def self.get_subs(i, instance)
+		ini = Ini.read_from_file(i)
 		str = String.new
-		File.new(i).read.scan(/^\[(http.+?)\]\nname ?= ?(.+?)$/).each do |sub|
-			str << %Q|[#{sub[0]}]
-name = (#{instance}) #{sub[1]}
+		ini.each_pair do |k, v|
+			next if k == "DEFAULT" or k == "Planet"
+			str << "[#{k}]\nname = (#{ini["Planet"]["name"]}) #{ini[k]["name"]}\n"
 
-|
+			if ini[k].has_key?("face")
+				str << "face = #{instance}/#{ini[k]["face"]}\n"
+			end
+
+			if ini[k].has_key?("portal")
+				str << "portal = #{ini[k]["portal"]}\n"
+			end
+			str << "\n"
 		end
 		str
 	end
@@ -70,7 +81,12 @@ EOF
 end
 
 universo = PlanetaLinuxUniverso.new
-File.open("#{File.dirname(__FILE__)}/../proc/universo/config.ini", "w") do |f|
-	f.write(universo.dump)
+
+if debug == 1
+	puts universo.dump
+else
+	File.open("#{File.dirname(__FILE__)}/../proc/universo/config.ini", "w") do |f|
+		f.write(universo.dump)
+	end
 end
 
