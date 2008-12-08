@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require "ini"
+require File.dirname(__FILE__) + "/ini"
 debug = 0
 
 module PlanetaLinux
