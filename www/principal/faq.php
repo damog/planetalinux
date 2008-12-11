@@ -92,7 +92,7 @@ cabeza completa.</p>
 desarrolladores de software libre en el mundo, se ve la necesidad de
 crear nuevas herramientas para «monitorear» los contenidos
 dependiendo de los gustos de cada uno de los usuarios. Y qué mejor que hacerlo entre gente iberoamericana.
-<p>Puedes ver más información específica sobre Planeta Linux en un interesante <a href="http://www.milmazz.com/archivos/2006/02/07/planeta-linux/">artículo/entrevista</a> que
+<p>Puedes ver más información específica sobre Planeta Linux en un interesante <a href="http://blog.milmazz.com.ve/archivos/2006/02/07/planeta-linux">artículo/entrevista</a> que
 hizo Milton Mazzarri al respecto.</p>
 </fieldset>
 <fieldset id="recuadro2">
