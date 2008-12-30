@@ -9,7 +9,7 @@ Dir.chdir "/var/www/planetalinux/git"
 Dir.chdir "#{ENV["HOME"]}/current/proc"
 
 skip_dirs = %w/inc universo/
-Dir["*/config.ini"].each do |ini|
+Dir["*/config.ini"].sort.each do |ini|
         next if skip_dirs.include?(ini.split('/').first)
 
         puts "Processing: #{ini}"
