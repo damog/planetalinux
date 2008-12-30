@@ -13,7 +13,11 @@ Dir["*/config.ini"].each do |ini|
         next if skip_dirs.include?(ini.split('/').first)
 
         puts "Processing: #{ini}"
-        %x[planetplanet #{ini}]
+				if ARGV[1] == "dry"
+					puts " NOT!"
+				else
+	        %x[planetplanet #{ini}]
+				end
 end
 
 
