@@ -10,7 +10,11 @@ PlanetaLinux.instances.each do |instance|
 	puts "#{instance}:"
 	PlanetaLinux.feeds_by_instance(instance).each_pair do |k, v|
 		v.each do |f|
-			fp = FeedParser.parse f
+			begin
+				fp = FeedParser.parse f
+			rescue
+				next
+			end
 
 			if k == "active"
 				if fp.bozo
