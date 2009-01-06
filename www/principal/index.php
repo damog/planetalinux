@@ -15,8 +15,6 @@
 		<a href="http://pe.planetalinux.org/"><img src="images/banderas/pe.png"></a>&nbsp;&nbsp;
 		<a href="http://ve.planetalinux.org/"><img src="images/banderas/ve.png"></a>&nbsp;&nbsp;
 		<a href="http://pa.planetalinux.org/"><img src="images/banderas/pa.png"></a>
-		<br />
-		<a href="http://planeta.debian.net"/><img src="images/banderas/debian.png"></a>
 		</div>
 	</p>
 </div>
