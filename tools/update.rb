@@ -9,15 +9,21 @@ Dir.chdir "/var/www/planetalinux/git"
 Dir.chdir "#{ENV["HOME"]}/current/proc"
 
 skip_dirs = %w/inc universo/
+
+threads = []
+
+i = 1
 Dir["*/config.ini"].sort.each do |ini|
         next if skip_dirs.include?(ini.split('/').first)
 
-        puts "Processing: #{ini}"
-				if ARGV[0] == "dry"
-					puts " NOT!"
-				else
-	        %x[planetplanet #{ini}]
-				end
+				threads << Thread.new {
+	        puts "Processing: #{ini}"
+					if ARGV[0] == "dry"
+						puts " NOT!"
+					else
+		        %x[planetplanet #{ini}]
+					end
+				}
 end
 
 
