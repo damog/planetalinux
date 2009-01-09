@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
 	<link rel="shortcut icon" type="image/png" href="http://planetalinux.org/favicon.png" />
 	<meta name="description" content="planeta linux agrupa blogs latinoamericanos de personas involucradas en el uso y desarrollo de gnu/linux y software libre" />
 	<meta name="keywords" content="planeta,linux,blog,gnu,linux,latinoam&eacute;rica,m&eacute;xico" />
