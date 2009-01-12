@@ -5,7 +5,7 @@ debug = 0
 
 class PlanetaLinuxUniverso
 	@@universo_template = <<EOF
-# Éste es un template creado automáticamente, favor de no modificat
+# Éste es un template creado automáticamente, favor de no modificar
 # los feeds aquí especificados. Para agregarse feeds, éstos tienen
 # que ser agregados en cada una de las instancias en los países
 
@@ -18,19 +18,17 @@ owner_email = planetalinux@googlegroups.com
 country_tld = universo
 country = Universo
 
-cache_directory = /tmp/planetalinux
+cache_directory = /tmp/planetalinux/universo
 new_feed_items = 10
 log_level = DEBUG
 
-template_files = /home/planetalinux/current/proc/rss20-new.xml.tmpl
+template_files = /home/planetalinux/current/proc/rss20-universo.xml.tmpl
 output_dir = /home/planetalinux/www/universo.planetalinux.org
 
-items_per_page = 60
-days_per_page = 7
+items_per_page = 250
 date_format = %l:%M %P
 new_date_format = %d de %B de %Y
 encoding = utf-8
-locale = es_MX.UTF-8
 
 [DEFAULT]
 face = nobody.png
