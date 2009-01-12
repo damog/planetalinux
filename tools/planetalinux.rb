@@ -50,7 +50,7 @@ module PlanetaLinux
     str = String.new
     ini.each_pair do |k, v|
       next if k == "DEFAULT" or k == "Planet"
-      str << "[#{k}]\nname = (#{ini["Planet"]["name"]}) #{ini[k]["name"]}\n"
+      str << "[#{k}]\nname = (#{ini["Planet"]["name"].gsub('Planeta Linux ', '')}) #{ini[k]["name"]}\n"
 
       if ini[k].has_key?("face")
         str << "face = #{instance}/#{ini[k]["face"]}\n"
