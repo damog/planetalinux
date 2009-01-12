@@ -1,4 +1,4 @@
-require "ini"
+require File.dirname(__FILE__) + "/ini"
 require "tempfile"
 require "pp"
 
