@@ -7,29 +7,32 @@
 <fieldset id="recuadro2">
 <legend>Infraestructura</legend>
 
-<p><b>Planeta Linux</b> es administrado por medio de un repositorio Subversion.
-El repositorio únicamente contiene un sólo directorio y no utiliza ramas, etiquetas
-y es en general bastante fácil de utilizar.
+<p><b>Planeta Linux</b> es administrado por medio de un repositorio bajo ia hred="http://github.com/damog/planetalinux">GitHub.com</a>.
+El repositorio únicamente contiene un sólo directorio y no utiliza ramas y es en general bastante fácil de utilizar.
 
 <h2>Estructura del árbol</h2>
-<p>El árbol tiene cuatro directorios en su nivel más alto:</p>
+<p>El árbol tiene cinco directorios en su nivel más alto:</p>
 <pre>
 planetalinux
 |
++-- conf
+|
 +-- proc
 |
-+-- test
++-- sandbox
 |
 +-- tools
 |
 +-- www
 </pre>
-<p><tt>proc</tt> es donde la mayor parte de los planetas a procesarse vive. <tt>test</tt> es un
-directorio donde aquellos que utilizan subversion por primera vez pueden experimentar. En <tt>tools</tt>
-pueden ir scripts o aplicaciones que corran con Planeta Linux pero que no sean vitales para su funcionamiento.
-<tt>www</tt> son todas las imágenes o HTMLs estáticos o dinámicos que serán desplegados en varias partes
-de  la página.</p>
+<p><tt>conf</tt> es donde se encuentra la configuración (a nivel servidor) de los diferentes componentes de planetalinux, lease, configuración de apache para el blog, el sitio principal, el RT, etc.
+<tt>proc</tt> es donde la mayor parte de los planetas a procesarse vive.
+<tt>sandbox</tt> es un directorio donde aquellos que utilizan subversion por primera vez pueden experimentar.
+En <tt>tools</tt> pueden ir scripts o aplicaciones que corran con Planeta Linux pero que no sean vitales para su funcionamiento.
+<tt>www</tt> son todas las imágenes o HTMLs estáticos o dinámicos que serán desplegados en varias partes de  la página.</p>
 
+<h3><tt>conf</tt></h3>
+<p>Dentro de este directorio se tiene básicamente la configuración usada por el servidor WWW apache para los diversos sitios que conforman planetalinux. Al momento se encuentra un solo archivo (apache.conf) con toda la configuración necesaria.
 <h3><tt>proc</tt></h3>
 <p>Dentro de <tt>proc</tt> vamos a tener los directorios de cada una de las instancias
 existentes en Planeta Linux, y además dos archivos genéricos que todas las instancias ocuparán:</p>
@@ -38,9 +41,9 @@ existentes en Planeta Linux, y además dos archivos genéricos que todas las ins
 |
 +-- proc
     |
-    +-- opml.xml.tmpl
+    +-- rss20-new.xml.tmpl
     |
-    +-- rss20.xml.tmpl
+    +-- rss20-universo.xml.tmpl
     |
     +-- mx
     |   |
