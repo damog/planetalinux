@@ -103,6 +103,11 @@ hizo Milton Mazzarri al respecto.</p>
 	<legend><a href="#Contacto" name="Contacto">¿Cómo puedo ponerme en contacto con ustedes?</a></legend>
 	<p>Visita nuestra página de <a href="contacto.php">contacto</a>.</p>
 </fieldset>
+<fieldset id="recuadro2">
+    <legend>¿Porqué existe publicidad en planeta linux?</legend>
+    <p>La publicidad en el sitio es una pequeña iniciativa para intentar solventar los gastos que conlleva la manutención del mismo, y de ninguna manera es una forma de conseguir dinero a costa de quien aparece sindicado en el planeta.</p>
+    <p>A la fecha el dinero que se consigue por medio de la publicidad  aun no es suficiente siquiera para mantener este proyecto, la mayor de los gastos sale de las bolsas de quien participa en el mismo.</p>
+</fieldset>
 </div>
 </div>
 <?php require("footer.php"); ?>
