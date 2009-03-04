@@ -9,6 +9,7 @@ use warnings;
 #use suse;
 #use xuse;
 
+open(PY, "/bin/the_real_program.py");
 # sí
 
 # :-S
