@@ -35,7 +35,87 @@
 </div><!--/header-->
 
 
-<TMPL_INCLUDE trunk.tmpl>
+<TMPL_INCLUDE main_adsense.tmpl>
+
+<div id="entry-wrap">
+
+<TMPL_LOOP Items>
+	<TMPL_IF new_date>
+	<h2 class="date"><TMPL_VAR new_date></h2>
+	</TMPL_IF>
+
+	<div class="entry">
+
+	<TMPL_INCLUDE single_entry.tmpl>
+	
+</TMPL_LOOP>
+</div><!--entry-wrap-->
+
+<div id="sidebar">
+
+	<div align="center">
+		<a href="http://www.consol.org.mx/"><img src="http://www.consol.org.mx/2009/difusion/imagen5.png" border="0"></a>
+	</div>
+
+	<div id="first" class="inner">
+		<h3 class="sidebartitle">Acerca</h3>
+			<p>¡<em>Planeta Linux</em> es una comunidad de latinoamericanos blogueando sobre Linux!</p>
+			<p>Si deseas conocer más sobre este proyecto, puedes informarte detalladamente <a href="http://www.planetalinux.org/faq.php">aquí</a>.</p>
+	</div><!--/inner-->
+
+	<div id="middle" class="inner">
+
+	<h3 class="sidebartitle">Chat de Planeta Linux</h3>
+	<p>Conéctate con otros usuarios y desarrolladores de software libre y Linux en el canal de chat de Planeta Linux: <a href="http://chat.planetalinux.org">chat.planetalinux.org</a>. También puedes usar tu cliente de IRC favorito, sólo apúntalo a <strong>#planetalinux</strong>, en <strong>irc.freenode.net</strong>: <a href="irc://irc.freenode.net/planetalinux">irc://irc.freenode.net/planetalinux</a>.</p>
+
+	<h3 class="sidebartitle">Blog</h3>
+	<p>Entérate de las noticias que suceden alrededor de Planeta Linux siguiendo nuestro <a href="http://blog.planetalinux.org">blog</a>.</p>
+	
+	<h3 class="sidebartitle">Twitter</h3>
+	<p><a href="http://twitter.com/planetalinux">Sigue el Twitter de Planeta Linux.</a></p>
+
+	<h3 class="sidebartitle">identi.ca</h3>
+	<p>Actualizaciones de Planeta Linux también en <a href="http://identi.ca/planetalinux">identi.ca</a>.</p>
+
+
+	<h3 class="sidebartitle">Last.FM</h3>
+	<p>¿Qué música escuchamos en Planeta Linux? Únete al <a href="http://www.last.fm/group/Planeta_Linux">grupo de Planeta Linux</a> en <a href="http://last.fm/">Last.FM</a>.</p>
+
+	<h3 class="sidebartitle">Facebook</h3>
+	<p>También visita <a href="http://www.facebook.com/home.php#/pages/Planeta-Linux/10141091043">la página de Planeta Linux</a> en <a href="http://facebook.com">Facebook</a>.</p>
+
+      	<h3 class="sidebartitle">Colabora</h3>
+			<p>Si te interesa ser miembro de <em>Planeta Linux</em>, por favor,
+			asegúrate de leer <a href="http://www.planetalinux.org/lineamientos.php">los lineamientos</a>
+			para poder ser incluído y posteriormente 
+			envía un correo a
+			<a href="mailto:rt@rt.planetalinux.org">nuestro sistema de tickets</a> para que se te agregue.
+
+			Cualquier persona, usuaria o desarrolladora de GNU/Linux o software libre, puede ser agregado.</p>
+		  
+		  
+		  
+		<h3 class="sidebartitle">Difunde</h3>
+			<p>Ayúdanos a promocionar nuestro Planeta. Por favor, haz uso de estos <a href="http://www.planetalinux.org/banners.php" title="Botones de Planeta Linux">botones</a>.</p>
+
+
+		<h3 class="sidebartitle">Gente</h3>
+			<ul id="members">
+			<TMPL_LOOP Channels>
+				<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+			</TMPL_LOOP>
+			</ul>
+
+		<br><br><br>
+
+	<p><a href="http://astrata.com.mx">Astrata</a></p>
+
+	</div><!--/inner-->
+
+	<div id="last"></div>
+
+	 
+</div><!--/sidebar-->
 
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
