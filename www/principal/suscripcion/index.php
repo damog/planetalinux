@@ -20,7 +20,7 @@
 	include "conf.php";
 
 	function message_die($text) {
-		include "../header.php";
+		include "header.php";
 		echo "<h1>Suscripci&oacute;n</h1>"
 		."$text"
 		."<br /><a href=\"javascript:history.back(1)\">[ &laquo; volver ]</a> | <a href=\"http://www.planetalinux.org\">[ www.planetalinux.org ]</a>";
