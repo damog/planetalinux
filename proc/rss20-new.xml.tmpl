@@ -16,7 +16,14 @@
 		<guid isPermaLink="false"><TMPL_VAR id ESCAPE="HTML"></guid>
 		<link><TMPL_VAR link ESCAPE="HTML"></link>
 		<TMPL_IF content>
-		<description><TMPL_VAR content ESCAPE="HTML"></description>
+			<description>
+				<TMPL_IF channel_face>
+					<P>
+					<img src="http://<TMPL_VAR country_tld ESCAPE="HTML">.planetalinux.org/images/cabezas/<TMPL_VAR channel_face ESCAPE="HTML">" />
+					</P>
+				</TMPL_IF>
+				<TMPL_VAR content ESCAPE="HTML">
+			</description>
 		</TMPL_IF>
 		<pubDate><TMPL_VAR date_822></pubDate>
 		<TMPL_IF author>
