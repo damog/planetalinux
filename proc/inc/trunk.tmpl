@@ -57,12 +57,24 @@
 		<h3 class="sidebartitle">Difunde</h3>
 			<p>Ayúdanos a promocionar nuestro Planeta. Por favor, haz uso de estos <a href="http://www.planetalinux.org/banners.php" title="Botones de Planeta Linux">botones</a>.</p>
 
-
 		<h3 class="sidebartitle">Gente</h3>
 			<ul id="members">
 			<TMPL_LOOP Channels>
-				<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+				<TMPL_IF portal>
+				<TMPL_ELSE>
+					<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+				</TMPL_IF>
 			</TMPL_LOOP>
+			</ul>
+			
+		<h3 class="sidebartitle">Portales comunitarios</h3>
+			<ul id="members">
+				<TMPL_LOOP Channels>
+					<TMPL_IF portal>
+						<li><a href="<TMPL_VAR link ESCAPE="HTML">" title="<TMPL_VAR title ESCAPE="HTML">"><TMPL_VAR name></a></li>
+					<TMPL_ELSE>
+					</TMPL_IF>
+				</TMPL_LOOP>
 			</ul>
 
 		<br><br><br>
