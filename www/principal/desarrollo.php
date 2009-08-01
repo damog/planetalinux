@@ -7,8 +7,7 @@
 <fieldset id="recuadro2">
 <legend>Infraestructura</legend>
 
-<p><b>Planeta Linux</b> es administrado por medio de un repositorio bajo ia hred="http://github.com/damog/planetalinux">GitHub.com</a>.
-El repositorio únicamente contiene un sólo directorio y no utiliza ramas y es en general bastante fácil de utilizar.
+<p><b>Planeta Linux</b> es administrado por medio de un repositorio bajo <aa href="http://github.com/damog/planetalinux">GitHub</a>.
 
 <h2>Estructura del árbol</h2>
 <p>El árbol tiene cinco directorios en su nivel más alto:</p>
@@ -178,24 +177,25 @@ imágenes, cabezas, etc.</p>
 
 <h2>Uso de contraseñas</h2>
 <p>La autenticación para el repositorio no se efectúa mediante contraseñas. Si estás leyendo esta página es
-por que muy probablemente ya tengas una cuenta de acceso y tu llave pública SSH ya esté en el servidor.</p>
+por que muy probablemente ya tengas una cuenta de acceso y tu llave pública SSH ya esté en el servidor, si no asegúrate
+de que <a href="http://damog.net/">damog</a> te agregue.</p>
 
-<p>Esa es la única posibilidad para acceder al repositorio, por medio de llaves SSH.</p>
+<p>Esa es la única posibilidad para acceder al repositorio, por medio de llaves SSH en GitHub.</p>
 
 <h2>Obtener el árbol en una copia local</h2>
 
-<p>Para bajar todo el contenido del árbol de Planeta Linux a tu máquina, bastará con ejecutar:</p>
+<p>Para clonar todo el contenido del árbol de Planeta Linux a tu máquina, bastará con ejecutar:</p>
 
-<p><tt>$ svn checkout svn+ssh://usuario@menteslibres.org/home/planetalinux/svn planetalinux</tt></p>
+<p><tt>$ git clone git@github.com:damog/planetalinux.git</tt></p>
 
-<p>Con <tt>co</tt> estás haciendo <em>checkout</em> y comenzará a descagar toda tu copia local. Es muy importante que tu
+<p>Es muy importante que tu
 llave local SSH sea la que estés usando desde <tt>~/.ssh/id_rsa.pub</tt>, de otra forma no será posible autenticarse
 tu cuenta.</p>
 
 <h2>Copia local siempre actualizada</h2>
 <p>Es vital, antes de hacer alguna modificación en el árbol, que mantengas tu árbol sincronizado, ejecutando:</p>
 
-<p><tt>svn up</tt></p>
+<p><tt>git pull origin master</tt></p>
 
 <h2>Agregar feeds o modificar los ya existentes</h2>
 <p>Cualquier modificación de nombres debe hacerse en UTF-8, pues así es como Planet entiende los acentos y tildes. 
@@ -203,9 +203,9 @@ Asegúrate de que tu cliente esté leyendo y escribiendo en UTF-8.</p>
 
 <p>Para agregar feeds, basta con utilizar tu editor favorito:</p>
 
-<p><tt>$ editor planetalinux/proc/ubicacion/config.ini</tt></p>
+<p><tt>$ vim planetalinux/proc/&lt;ubicacion&gt;/config.ini</tt></p>
 
-<p>...donde <em>ubicacion</em> es desde luego <em>mx</em>, <em>ve</em>, <em>pe</em>, etc.</p>
+<p>...donde &lt;<em>ubicacion</em>&gt; es desde luego <em>mx</em>, <em>ve</em>, <em>pe</em>, etc.</p>
 
 <p>El formato de los feeds, nombres e imágenes de hackergotchi es bastante intuitivo:</p>
 
@@ -227,7 +227,7 @@ accedemos, hay que editarla nosotros mismos para que cumpla con los lineamientos
 <p>Una vez que tenemos la imagen tal como se necesita, la colocamos en su lugar y la agregamos al depósito:</p>
 
 <p><tt>$ mv /tmp/image001.png planetalinux/www/instancias/ubicacion/images/cabezas/juanito.png</tt><br />
-<tt>$ svn add planetalinux/www/instancias/ubicacion/images/cabezas/juanito.png</tt></p>
+<tt>$ git add planetalinux/www/instancias/ubicacion/images/cabezas/juanito.png</tt></p>
 
 <p>...donde <em>ubicacion</em> es desde luego, alguna de las instancias.</p>
 
@@ -246,23 +246,22 @@ tener suficiente experiencia con esta onda para necesitar este HOWTO :-)</p>
 el commit tendrá cierta recursividad. Si sólo quieres commitear los cambios de algún directorio en
 específico (por alguna extraña razón):
 
-<p><tt>$ svn ci -m 'Agrego a Fulanito de las Porras' proc/mx</tt></p>
+<p><tt>$ git commit -m 'Agrego a Fulanito de las Porras' proc/mx</tt></p>
 
 <p><strong>Siempre</strong> hay que proveer un comentario en los cambios.</p>
 
-<p>Con un simple <tt>svn ci -m 'Comentario'</tt> en la raíz del árbol debería bastar.</p>
+<p>Con un simple <tt>git commit -m 'Comentario' -a</tt> debería bastar.</p>
 
 <h2>El historial de cambios</h2>
 
 <p>Los diffs de cada uno de los commits es enviado a la lista de correos de Planeta Linux y son revisados
 minuciosamente, así que cualquier detalle es detectable. Actúa con responsabilidad. Para ver tú mismo el
-historial de los cambios en el árbol, utiliza <tt>svn log</tt>.</p>
+historial de los cambios en el árbol, utiliza <tt>git log</tt>.</p>
 
-<h2>Otros comandos útiles</h2>
+<h2>Enlaces útiles</h2>
 
 <ul>
-<li><tt>svn st</tt></li>
-<li><tt>svn diff</tt></li>
+	<li><a href="http://log.damog.net/2008/12/two-git-tips/">Two Git tips</a></li>
 </ul>
 
 </fieldset>
