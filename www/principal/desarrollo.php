@@ -7,7 +7,7 @@
 <fieldset id="recuadro2">
 <legend>Infraestructura</legend>
 
-<p><b>Planeta Linux</b> es administrado por medio de un repositorio bajo <aa href="http://github.com/damog/planetalinux">GitHub</a>.
+<p><b>Planeta Linux</b> es administrado por medio de un repositorio bajo <a href="http://github.com/damog/planetalinux">GitHub</a>.
 
 <h2>Estructura del árbol</h2>
 <p>El árbol tiene cinco directorios en su nivel más alto:</p>
